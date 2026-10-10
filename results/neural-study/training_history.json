@@ -1,0 +1,3506 @@
+[
+  {
+    "configuration": {
+      "epochs": 24,
+      "batch_size": 64,
+      "learning_rate": 0.002,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 24,
+    "best_validation_score": 0.12373939156532288,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.3247375190258026,
+        "loss": 0.24600126913615636,
+        "regression": 0.10604832534279142,
+        "corruption": 0.652545805488314,
+        "quality": 0.6493518991129739,
+        "severity": 0.19206946662494115,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.32939857244491577,
+        "loss": 0.2009358246411596,
+        "regression": 0.07575486174651555,
+        "corruption": 0.5872384480067662,
+        "quality": 0.5795351053987231,
+        "severity": 0.16236868500709534,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.3053085207939148,
+        "loss": 0.17185275788818086,
+        "regression": 0.07095528207719326,
+        "corruption": 0.47958859162671225,
+        "quality": 0.46385725906917025,
+        "severity": 0.1153264721589429,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.2342832386493683,
+        "loss": 0.13963654530899866,
+        "regression": 0.054070123338273594,
+        "corruption": 0.3621625985418047,
+        "quality": 0.5515236875840596,
+        "severity": 0.07331688462623528,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.21448980271816254,
+        "loss": 0.11006561240979604,
+        "regression": 0.035199803699340136,
+        "corruption": 0.2642162527356829,
+        "quality": 0.6465814667088645,
+        "severity": 0.05808593066675322,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.20719388127326965,
+        "loss": 0.07169592433742114,
+        "regression": 0.029233559699995176,
+        "corruption": 0.0698476532208068,
+        "quality": 0.6222614858831678,
+        "severity": 0.017442827645157064,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.16633208096027374,
+        "loss": 0.05963082824434553,
+        "regression": 0.02403476368635893,
+        "corruption": 0.012963116701160158,
+        "quality": 0.664116199527468,
+        "severity": 0.008915723501039403,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.1509372740983963,
+        "loss": 0.05171288815992219,
+        "regression": 0.016777114144393375,
+        "corruption": 0.010293955715107066,
+        "quality": 0.6582605455602918,
+        "severity": 0.009573039332670825,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 9,
+        "validation_normalized_mae": 0.13649842143058777,
+        "loss": 0.04713401038731847,
+        "regression": 0.01329258776136807,
+        "corruption": 0.00927736280885126,
+        "quality": 0.6405466284070697,
+        "severity": 0.008449728334588664,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 10,
+        "validation_normalized_mae": 0.13337105512619019,
+        "loss": 0.042650006711483,
+        "regression": 0.01064109689156924,
+        "corruption": 0.00623469814724688,
+        "quality": 0.6135967309985842,
+        "severity": 0.00787736541990723,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 11,
+        "validation_normalized_mae": 0.13249553740024567,
+        "loss": 0.03967774712613651,
+        "regression": 0.009548507264948316,
+        "corruption": 0.0034847663482651114,
+        "quality": 0.5856286244732993,
+        "severity": 0.0065018648581047144,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 12,
+        "validation_normalized_mae": 0.12999819219112396,
+        "loss": 0.04263522981532982,
+        "regression": 0.00924655016777771,
+        "corruption": 0.003146641571739955,
+        "quality": 0.6522382370063237,
+        "severity": 0.006095417941521321,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 13,
+        "validation_normalized_mae": 0.13671715557575226,
+        "loss": 0.03680277376302651,
+        "regression": 0.007678906799161008,
+        "corruption": 0.0030254678235256244,
+        "quality": 0.5670902345861707,
+        "severity": 0.006310697345595274,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 14,
+        "validation_normalized_mae": 0.13036729395389557,
+        "loss": 0.03970188035496643,
+        "regression": 0.0075815880471574405,
+        "corruption": 0.002328185855211424,
+        "quality": 0.6299863542829242,
+        "severity": 0.0054349285118015745,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 15,
+        "validation_normalized_mae": 0.1528017371892929,
+        "loss": 0.03718759332384382,
+        "regression": 0.006903402839920351,
+        "corruption": 0.0020780920583222595,
+        "quality": 0.5939703711441585,
+        "severity": 0.005479150202258357,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 16,
+        "validation_normalized_mae": 0.13013610243797302,
+        "loss": 0.03376789550696101,
+        "regression": 0.005942756659351289,
+        "corruption": 0.0019677816474411103,
+        "quality": 0.5456467717885971,
+        "severity": 0.004952659131959081,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 17,
+        "validation_normalized_mae": 0.1395217925310135,
+        "loss": 0.030251830417130674,
+        "regression": 0.005655387682574136,
+        "corruption": 0.0011339778284309432,
+        "quality": 0.48435612661497934,
+        "severity": 0.0041707828640937805,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 18,
+        "validation_normalized_mae": 0.13344313204288483,
+        "loss": 0.03558021131902933,
+        "regression": 0.0064030051164861235,
+        "corruption": 0.0010970958683174103,
+        "quality": 0.5758679360151291,
+        "severity": 0.0043848797878516576,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 19,
+        "validation_normalized_mae": 0.14368242025375366,
+        "loss": 0.03088749067059585,
+        "regression": 0.00566886441915163,
+        "corruption": 0.0013231524395190977,
+        "quality": 0.496249115892819,
+        "severity": 0.004153941358838763,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 20,
+        "validation_normalized_mae": 0.1429259330034256,
+        "loss": 0.03524758254310915,
+        "regression": 0.005669688672891685,
+        "corruption": 0.0013606010221077927,
+        "quality": 0.5831822391067233,
+        "severity": 0.004293832412388708,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 21,
+        "validation_normalized_mae": 0.13474513590335846,
+        "loss": 0.03379295353910753,
+        "regression": 0.005819312878884375,
+        "corruption": 0.001514477123107229,
+        "quality": 0.5513747738940376,
+        "severity": 0.0035546078579500318,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 22,
+        "validation_normalized_mae": 0.12767885625362396,
+        "loss": 0.029990784025618007,
+        "regression": 0.0051840637045513305,
+        "corruption": 0.002052876275099282,
+        "quality": 0.4837617150374821,
+        "severity": 0.006214054101811988,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 23,
+        "validation_normalized_mae": 0.12771271169185638,
+        "loss": 0.02566197035568101,
+        "regression": 0.004285605890410287,
+        "corruption": 0.001084596457076259,
+        "quality": 0.4202220120600292,
+        "severity": 0.00405148311983794,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 24,
+        "validation_normalized_mae": 0.12373939156532288,
+        "loss": 0.024625700233238085,
+        "regression": 0.003806708630041352,
+        "corruption": 0.0007474164885934442,
+        "quality": 0.4109022894075939,
+        "severity": 0.0032352875818365385,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": false,
+    "architecture": "cnn",
+    "seed": 17,
+    "stage": "base",
+    "duration_s": 2.7079689502716064,
+    "train_cases": 864
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 6,
+    "best_validation_score": 0.12261244654655457,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.12444224953651428,
+        "loss": 0.022337818627848345,
+        "regression": 0.003775313523981501,
+        "corruption": 0.0006171660690383493,
+        "quality": 0.36725616192116456,
+        "severity": 0.0021424320362070028,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.1297900676727295,
+        "loss": 0.020500621758401394,
+        "regression": 0.0028462463079075165,
+        "corruption": 0.0005291618987993227,
+        "quality": 0.3494286598528133,
+        "severity": 0.002071353851694285,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.12405887991189957,
+        "loss": 0.01944512515054906,
+        "regression": 0.0028604403042289265,
+        "corruption": 0.0004419306914154303,
+        "quality": 0.32818420406650095,
+        "severity": 0.002183689458487446,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.12568001449108124,
+        "loss": 0.018268460106542882,
+        "regression": 0.002598765480797738,
+        "corruption": 0.00039270361915388257,
+        "quality": 0.3101164773106575,
+        "severity": 0.0020992995500016738,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.12349194288253784,
+        "loss": 0.01928669652518104,
+        "regression": 0.0026659159441752467,
+        "corruption": 0.00029833008824532633,
+        "quality": 0.32948346655158434,
+        "severity": 0.0020371507527991474,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.12261244654655457,
+        "loss": 0.01919786391012809,
+        "regression": 0.002689551921588752,
+        "corruption": 0.0003055740714497755,
+        "quality": 0.32714711962377324,
+        "severity": 0.002102394964929451,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.12417610734701157,
+        "loss": 0.017338305547395173,
+        "regression": 0.0023240825086010292,
+        "corruption": 0.00031649537670412376,
+        "quality": 0.29726427662021976,
+        "severity": 0.0020706900737850983,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.12330358475446701,
+        "loss": 0.01620538004071397,
+        "regression": 0.0021583657465217743,
+        "corruption": 0.0002582466644097996,
+        "quality": 0.27814189782913995,
+        "severity": 0.002023643933866611,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": false,
+    "architecture": "cnn",
+    "seed": 17,
+    "stage": "continued_base",
+    "duration_s": 2.0141680240631104,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.11311084777116776,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.13017015159130096,
+        "loss": 0.11722967116271749,
+        "regression": 0.023001791471067595,
+        "corruption": 0.32196445281014724,
+        "quality": 0.8690293396220488,
+        "severity": 0.049634846475194484,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.1300594061613083,
+        "loss": 0.07634760066866875,
+        "regression": 0.01930299973772729,
+        "corruption": 0.12591878302833615,
+        "quality": 0.7277864515781403,
+        "severity": 0.03534918464720249,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.1286991983652115,
+        "loss": 0.06649826160248588,
+        "regression": 0.01819544460843591,
+        "corruption": 0.08082167837111388,
+        "quality": 0.6977536923745099,
+        "severity": 0.025837587028303566,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.1295580118894577,
+        "loss": 0.062257757848676515,
+        "regression": 0.01776641103274682,
+        "corruption": 0.061552566202247846,
+        "quality": 0.682639546254102,
+        "severity": 0.022529662038911793,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.12026231735944748,
+        "loss": 0.05931470345924882,
+        "regression": 0.016819033525226748,
+        "corruption": 0.0480510727776324,
+        "quality": 0.6850617773392621,
+        "severity": 0.020698376876466414,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.11823724210262299,
+        "loss": 0.05723106170840123,
+        "regression": 0.01619088403223192,
+        "corruption": 0.03906010189915404,
+        "quality": 0.6842818540685317,
+        "severity": 0.01934136636555195,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.11442628502845764,
+        "loss": 0.055179518044871444,
+        "regression": 0.01547796361367492,
+        "corruption": 0.0315157641273211,
+        "quality": 0.681289849912419,
+        "severity": 0.018193925484357512,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.11311084777116776,
+        "loss": 0.053115409634569115,
+        "regression": 0.014291916453443906,
+        "corruption": 0.0264382256907137,
+        "quality": 0.6797937154769897,
+        "severity": 0.017361458308775637,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": false,
+    "architecture": "cnn",
+    "seed": 17,
+    "stage": "robust_adaptation",
+    "duration_s": 2.0114169120788574,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.11206205189228058,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.1287287026643753,
+        "loss": 0.12636088514152696,
+        "regression": 0.022640190142042497,
+        "corruption": 0.3052973199416609,
+        "quality": 1.0450031704762404,
+        "severity": 0.050519744153408444,
+        "coverage_penalty": 0.0027081384259337723
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.12912622094154358,
+        "loss": 0.08997274453149122,
+        "regression": 0.019179753329166594,
+        "corruption": 0.12152236897279234,
+        "quality": 0.9922040963874144,
+        "severity": 0.03767039665185353,
+        "coverage_penalty": 0.0008665744703331016
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.12761610746383667,
+        "loss": 0.08104111582917325,
+        "regression": 0.018180413911228672,
+        "corruption": 0.07830061117077575,
+        "quality": 0.9774048223214991,
+        "severity": 0.02578807167489739,
+        "coverage_penalty": 0.0008571203073494323
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.12682868540287018,
+        "loss": 0.07652528189560946,
+        "regression": 0.017741138581186533,
+        "corruption": 0.05963152745629058,
+        "quality": 0.9640619719729704,
+        "severity": 0.02237029677695211,
+        "coverage_penalty": 0.000491352962960852
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.12174354493618011,
+        "loss": 0.07191847089458914,
+        "regression": 0.01682671088287059,
+        "corruption": 0.047477859948926115,
+        "quality": 0.9268748409607831,
+        "severity": 0.020714836249894956,
+        "coverage_penalty": 0.000586151611086654
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.1211661845445633,
+        "loss": 0.06897263502811685,
+        "regression": 0.016287630259552422,
+        "corruption": 0.03953550980590722,
+        "quality": 0.9083493071443894,
+        "severity": 0.019515042165842128,
+        "coverage_penalty": 0.0003696354038926502
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.1127394586801529,
+        "loss": 0.06553808391532477,
+        "regression": 0.015505807693390286,
+        "corruption": 0.03285464600605123,
+        "quality": 0.876636250930674,
+        "severity": 0.018408087054815364,
+        "coverage_penalty": 0.0003659726954966198
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.11206205189228058,
+        "loss": 0.06093414577052874,
+        "regression": 0.014280713683761218,
+        "corruption": 0.027821409296901786,
+        "quality": 0.8271766234846676,
+        "severity": 0.017583809957346496,
+        "coverage_penalty": 0.00024876206101881134
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": true,
+    "architecture": "cnn",
+    "seed": 17,
+    "stage": "selective_adaptation",
+    "duration_s": 2.0138561725616455,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 24,
+      "batch_size": 64,
+      "learning_rate": 0.002,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 21,
+    "best_validation_score": 0.13014358282089233,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.3237220048904419,
+        "loss": 0.23199844041040965,
+        "regression": 0.08616651701075691,
+        "corruption": 0.6931854316166469,
+        "quality": 0.6540727828230176,
+        "severity": 0.18300928707633699,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.32206809520721436,
+        "loss": 0.20189899844782694,
+        "regression": 0.07380566719387259,
+        "corruption": 0.6176948206765311,
+        "quality": 0.5480975274528775,
+        "severity": 0.16068455364022935,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.28563040494918823,
+        "loss": 0.1567150918500764,
+        "regression": 0.06565881680165019,
+        "corruption": 0.4187825151852199,
+        "quality": 0.4586450436285564,
+        "severity": 0.1061328553727695,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.24339023232460022,
+        "loss": 0.13208317596997535,
+        "regression": 0.05034663235502584,
+        "corruption": 0.32564022285597666,
+        "quality": 0.5861805166516986,
+        "severity": 0.07162960565515927,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.2148885279893875,
+        "loss": 0.10275923833251,
+        "regression": 0.037730645654456954,
+        "corruption": 0.2250945514866284,
+        "quality": 0.5685499565941947,
+        "severity": 0.05673822574317455,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.19728857278823853,
+        "loss": 0.06813671067357063,
+        "regression": 0.028655480460396836,
+        "corruption": 0.04380610339077456,
+        "quality": 0.643051530633654,
+        "severity": 0.015154737513512373,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.20146657526493073,
+        "loss": 0.05663347590182509,
+        "regression": 0.02321176284125873,
+        "corruption": 0.006723367076899324,
+        "quality": 0.6411379149981907,
+        "severity": 0.007126211221995098,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.15318751335144043,
+        "loss": 0.05204907352370875,
+        "regression": 0.018518519388245686,
+        "corruption": 0.0065721745735832626,
+        "quality": 0.6441660267966134,
+        "severity": 0.006728507694788277,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 9,
+        "validation_normalized_mae": 0.16023759543895721,
+        "loss": 0.04809612700981753,
+        "regression": 0.013717077539435454,
+        "corruption": 0.00707256727452789,
+        "quality": 0.6599360193525042,
+        "severity": 0.006427263242325613,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 10,
+        "validation_normalized_mae": 0.15431329607963562,
+        "loss": 0.0450881692980017,
+        "regression": 0.013158832743231739,
+        "corruption": 0.005990125854233546,
+        "quality": 0.6145447279725756,
+        "severity": 0.006071623780631593,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 11,
+        "validation_normalized_mae": 0.14162792265415192,
+        "loss": 0.04462181670325143,
+        "regression": 0.011974255454593472,
+        "corruption": 0.004600288346409798,
+        "quality": 0.6332895926066807,
+        "severity": 0.005860748002305627,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 12,
+        "validation_normalized_mae": 0.1500275880098343,
+        "loss": 0.03908522134380681,
+        "regression": 0.008999559762222427,
+        "corruption": 0.005059575861585992,
+        "quality": 0.5811305109943662,
+        "severity": 0.005403970235160419,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 13,
+        "validation_normalized_mae": 0.14135991036891937,
+        "loss": 0.03899847077471869,
+        "regression": 0.008781798682840807,
+        "corruption": 0.003906253924859422,
+        "quality": 0.58643225474017,
+        "severity": 0.006182412350816386,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 14,
+        "validation_normalized_mae": 0.15421941876411438,
+        "loss": 0.036737111663179736,
+        "regression": 0.007864841426323568,
+        "corruption": 0.0031283210929749267,
+        "quality": 0.5623661279678345,
+        "severity": 0.005694309681920069,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 15,
+        "validation_normalized_mae": 0.13920222222805023,
+        "loss": 0.03408193987395082,
+        "regression": 0.0069160187683467355,
+        "corruption": 0.002493263696253832,
+        "quality": 0.5311476907559803,
+        "severity": 0.0046909250086173415,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 16,
+        "validation_normalized_mae": 0.13358385860919952,
+        "loss": 0.03339604860437768,
+        "regression": 0.006736954541078636,
+        "corruption": 0.0018404797966858105,
+        "quality": 0.5226209419114249,
+        "severity": 0.005039503182550626,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 17,
+        "validation_normalized_mae": 0.14056940376758575,
+        "loss": 0.03104161032076393,
+        "regression": 0.006026078564380961,
+        "corruption": 0.001691284157069666,
+        "quality": 0.4905703365802765,
+        "severity": 0.004666436895994204,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 18,
+        "validation_normalized_mae": 0.1469801366329193,
+        "loss": 0.03067108097353152,
+        "regression": 0.005682667750599129,
+        "corruption": 0.001459749581824456,
+        "quality": 0.4908003636768886,
+        "severity": 0.004588649924179273,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 19,
+        "validation_normalized_mae": 0.14267709851264954,
+        "loss": 0.029175862669944763,
+        "regression": 0.005040842956597251,
+        "corruption": 0.001278017323264586,
+        "quality": 0.4748514656509672,
+        "severity": 0.0040148699024159995,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 20,
+        "validation_normalized_mae": 0.13643582165241241,
+        "loss": 0.025587200852377073,
+        "regression": 0.004458764734278832,
+        "corruption": 0.0011694645093354797,
+        "quality": 0.4152727595397404,
+        "severity": 0.0037875580601394176,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 21,
+        "validation_normalized_mae": 0.13014358282089233,
+        "loss": 0.02537264781338828,
+        "regression": 0.004274662900050836,
+        "corruption": 0.0008826036916746359,
+        "quality": 0.415426390511649,
+        "severity": 0.0038855000083068652,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 22,
+        "validation_normalized_mae": 0.13158518075942993,
+        "loss": 0.025145829788276126,
+        "regression": 0.004103702675950315,
+        "corruption": 0.0008337719856561827,
+        "quality": 0.4143305165427072,
+        "severity": 0.004010704878185477,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 23,
+        "validation_normalized_mae": 0.1509251743555069,
+        "loss": 0.029225396790674756,
+        "regression": 0.005018111517918962,
+        "corruption": 0.000831308207125403,
+        "quality": 0.4776285971914019,
+        "severity": 0.004023174871690571,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 24,
+        "validation_normalized_mae": 0.13680672645568848,
+        "loss": 0.030522999885891165,
+        "regression": 0.004557319983307805,
+        "corruption": 0.0011376111319155566,
+        "quality": 0.5121141586984906,
+        "severity": 0.0037865920291681376,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": false,
+    "architecture": "cnn",
+    "seed": 29,
+    "stage": "base",
+    "duration_s": 2.7175140380859375,
+    "train_cases": 864
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 5,
+    "best_validation_score": 0.12751910090446472,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.12934868037700653,
+        "loss": 0.0213985280955539,
+        "regression": 0.003798491246176555,
+        "corruption": 0.000787406273850459,
+        "quality": 0.3466441184282303,
+        "severity": 0.002994397093596704,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.13108080625534058,
+        "loss": 0.01971187472672147,
+        "regression": 0.003029786266030415,
+        "corruption": 0.0005569874843144242,
+        "quality": 0.32919588246766257,
+        "severity": 0.0027749223929062925,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.12788091599941254,
+        "loss": 0.020479981102706754,
+        "regression": 0.0030397713622626137,
+        "corruption": 0.00040263583693612255,
+        "quality": 0.34487948479021296,
+        "severity": 0.0027167998487129807,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.12967300415039062,
+        "loss": 0.01818979627398007,
+        "regression": 0.0027720806743566167,
+        "corruption": 0.00038215816996799894,
+        "quality": 0.30453527631128535,
+        "severity": 0.002672555803334998,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.12751910090446472,
+        "loss": 0.018057038651450592,
+        "regression": 0.0026322633664890684,
+        "corruption": 0.00027562084805514826,
+        "quality": 0.3051275965922019,
+        "severity": 0.002541042840354802,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.1316353976726532,
+        "loss": 0.019129376913256505,
+        "regression": 0.002689643410335788,
+        "corruption": 0.0002582916131359525,
+        "quality": 0.325459282626124,
+        "severity": 0.0025605095879119985,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.12870050966739655,
+        "loss": 0.019217371283208624,
+        "regression": 0.002913641572162947,
+        "corruption": 0.0002506677078867249,
+        "quality": 0.32277064638979297,
+        "severity": 0.0025519359007696897,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.13042224943637848,
+        "loss": 0.017390965429299018,
+        "regression": 0.0024842030731687214,
+        "corruption": 0.00026144830211277995,
+        "quality": 0.294837640488849,
+        "severity": 0.0025132542325402886,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": false,
+    "architecture": "cnn",
+    "seed": 29,
+    "stage": "continued_base",
+    "duration_s": 1.993373155593872,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.1083928644657135,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.13174664974212646,
+        "loss": 0.10596536735401434,
+        "regression": 0.020674936062491992,
+        "corruption": 0.25741128842620287,
+        "quality": 0.8844984261428609,
+        "severity": 0.049076284117558426,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.13581044971942902,
+        "loss": 0.0749417156638468,
+        "regression": 0.01852875515161192,
+        "corruption": 0.12832763374728315,
+        "quality": 0.7073531431310317,
+        "severity": 0.03592316433787346,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.12096936255693436,
+        "loss": 0.0662376806139946,
+        "regression": 0.017555832917637685,
+        "corruption": 0.08443011507830199,
+        "quality": 0.6948040180346545,
+        "severity": 0.02554255597950781,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.11877348273992538,
+        "loss": 0.06143612184507005,
+        "regression": 0.016730401117135498,
+        "corruption": 0.062069602968061674,
+        "quality": 0.6859242179814506,
+        "severity": 0.021981371073600126,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.11391730606555939,
+        "loss": 0.05804805852034513,
+        "regression": 0.01560650223537403,
+        "corruption": 0.04824036359786987,
+        "quality": 0.6837490621735068,
+        "severity": 0.020360961200340706,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.12085746973752975,
+        "loss": 0.055272475213688964,
+        "regression": 0.014708994942552903,
+        "corruption": 0.037861511330394185,
+        "quality": 0.6787440356086282,
+        "severity": 0.01894101292333182,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.1142459437251091,
+        "loss": 0.05304169863024179,
+        "regression": 0.013965921503875186,
+        "corruption": 0.03039707867976497,
+        "quality": 0.6724979141179253,
+        "severity": 0.01782637360670111,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.1083928644657135,
+        "loss": 0.051289698218598086,
+        "regression": 0.013203649315983057,
+        "corruption": 0.02511661403867252,
+        "quality": 0.6692817246212679,
+        "severity": 0.017089404412271345,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": false,
+    "architecture": "cnn",
+    "seed": 29,
+    "stage": "robust_adaptation",
+    "duration_s": 2.0502889156341553,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.10899706929922104,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.13493825495243073,
+        "loss": 0.11608690987615024,
+        "regression": 0.02048140109571464,
+        "corruption": 0.24051808543941555,
+        "quality": 1.1019105472985435,
+        "severity": 0.04998485557734966,
+        "coverage_penalty": 0.0015831688724039636
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.1374136358499527,
+        "loss": 0.08783824325484388,
+        "regression": 0.018511775168864167,
+        "corruption": 0.11589797805337344,
+        "quality": 0.9852088672273299,
+        "severity": 0.038000996060231156,
+        "coverage_penalty": 0.0006283637462997029
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.12037639319896698,
+        "loss": 0.07889454055796652,
+        "regression": 0.01759255088537055,
+        "corruption": 0.07973085519145517,
+        "quality": 0.9471433583427878,
+        "severity": 0.02531392587458386,
+        "coverage_penalty": 0.0006330870886151441
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.11613333225250244,
+        "loss": 0.07242425421581548,
+        "regression": 0.016561039285186457,
+        "corruption": 0.059594422578811646,
+        "quality": 0.9082867345389198,
+        "severity": 0.0218127121710602,
+        "coverage_penalty": 0.0003877928842090274
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.1141253337264061,
+        "loss": 0.06701760246034931,
+        "regression": 0.01537110875634586,
+        "corruption": 0.04713300933294436,
+        "quality": 0.8623034393086153,
+        "severity": 0.020265651346348664,
+        "coverage_penalty": 0.0004408096677633801
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.11381831765174866,
+        "loss": 0.0628739417914082,
+        "regression": 0.01451963115045253,
+        "corruption": 0.037426246001439935,
+        "quality": 0.8292660397641799,
+        "severity": 0.018986524630557087,
+        "coverage_penalty": 0.00033024748551176397
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.11506299674510956,
+        "loss": 0.06002934046966188,
+        "regression": 0.013835890026872648,
+        "corruption": 0.030554354519528502,
+        "quality": 0.8081432843909544,
+        "severity": 0.01791990181321607,
+        "coverage_penalty": 0.00032515395319960053
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.10899706929922104,
+        "loss": 0.05842525281888597,
+        "regression": 0.013159537181148635,
+        "corruption": 0.02587622552014449,
+        "quality": 0.8035782207460964,
+        "severity": 0.017241361386635724,
+        "coverage_penalty": 0.00036023698678842294
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": true,
+    "architecture": "cnn",
+    "seed": 29,
+    "stage": "selective_adaptation",
+    "duration_s": 1.9981508255004883,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 24,
+      "batch_size": 64,
+      "learning_rate": 0.002,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 21,
+    "best_validation_score": 0.13341611623764038,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.3429221212863922,
+        "loss": 0.25150057673454285,
+        "regression": 0.11236269665615899,
+        "corruption": 0.6422373695032937,
+        "quality": 0.6718630450112479,
+        "severity": 0.1841822522027152,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.32177484035491943,
+        "loss": 0.20136905674423491,
+        "regression": 0.0760404286640031,
+        "corruption": 0.5838950787271772,
+        "quality": 0.5963756314345768,
+        "severity": 0.15851163119077682,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.30392396450042725,
+        "loss": 0.17735718935728073,
+        "regression": 0.07257502392998763,
+        "corruption": 0.5017907406602587,
+        "quality": 0.4717663143362318,
+        "severity": 0.1185046625988824,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.25857993960380554,
+        "loss": 0.15398186232362474,
+        "regression": 0.06207172891923359,
+        "corruption": 0.415435722896031,
+        "quality": 0.5071916048015866,
+        "severity": 0.08470383419522218,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.23621277511119843,
+        "loss": 0.1311295229409422,
+        "regression": 0.039757651809070794,
+        "corruption": 0.37256277033260893,
+        "quality": 0.6311172587530953,
+        "severity": 0.0786317554967744,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.20245219767093658,
+        "loss": 0.11842068497623716,
+        "regression": 0.033040392877800126,
+        "corruption": 0.33666048305375235,
+        "quality": 0.6267302291733878,
+        "severity": 0.07089414341109139,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.18270958960056305,
+        "loss": 0.10165376588702202,
+        "regression": 0.0256135029984372,
+        "corruption": 0.2805302600775446,
+        "quality": 0.6178686618804932,
+        "severity": 0.061345777341297696,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.1651494801044464,
+        "loss": 0.07164348449025836,
+        "regression": 0.018582407850772142,
+        "corruption": 0.11618651689163276,
+        "quality": 0.6839001561914172,
+        "severity": 0.028761801110314473,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 9,
+        "validation_normalized_mae": 0.19128188490867615,
+        "loss": 0.05186573788523674,
+        "regression": 0.016371813137084246,
+        "corruption": 0.01872007442372186,
+        "quality": 0.6429423817566463,
+        "severity": 0.01077587965742818,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 10,
+        "validation_normalized_mae": 0.15796607732772827,
+        "loss": 0.056616051122546196,
+        "regression": 0.0192787375833307,
+        "corruption": 0.012733391519369823,
+        "quality": 0.6998218468257359,
+        "severity": 0.008724233002534934,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 11,
+        "validation_normalized_mae": 0.1466549187898636,
+        "loss": 0.04636311424630029,
+        "regression": 0.011874203437141009,
+        "corruption": 0.011233047149809343,
+        "quality": 0.648311299937112,
+        "severity": 0.0077677692752331495,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 12,
+        "validation_normalized_mae": 0.13817253708839417,
+        "loss": 0.040379349807543416,
+        "regression": 0.009540966878245984,
+        "corruption": 0.005509030223557991,
+        "quality": 0.5931615169559207,
+        "severity": 0.007079034445009061,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 13,
+        "validation_normalized_mae": 0.1398768573999405,
+        "loss": 0.03776056306170566,
+        "regression": 0.0086697857560856,
+        "corruption": 0.004484942033221679,
+        "quality": 0.5620730348995754,
+        "severity": 0.006287679741425174,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 14,
+        "validation_normalized_mae": 0.13515543937683105,
+        "loss": 0.03686570070151772,
+        "regression": 0.007794337081057685,
+        "corruption": 0.003820444557017514,
+        "quality": 0.5640417678015572,
+        "severity": 0.00592415126240147,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 15,
+        "validation_normalized_mae": 0.14172053337097168,
+        "loss": 0.03363782699619021,
+        "regression": 0.00695638481660613,
+        "corruption": 0.0031299382764180855,
+        "quality": 0.5173581221273967,
+        "severity": 0.006880887917109898,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 16,
+        "validation_normalized_mae": 0.13396123051643372,
+        "loss": 0.03517957204686744,
+        "regression": 0.0063033682693328175,
+        "corruption": 0.0022516262251883745,
+        "quality": 0.5645202675036022,
+        "severity": 0.006248911077688847,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 17,
+        "validation_normalized_mae": 0.13650552928447723,
+        "loss": 0.03329147385167224,
+        "regression": 0.006301463698036969,
+        "corruption": 0.0020535807208424167,
+        "quality": 0.5279607623815536,
+        "severity": 0.005678706935473851,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 18,
+        "validation_normalized_mae": 0.15677645802497864,
+        "loss": 0.03058687358030251,
+        "regression": 0.00562014226202986,
+        "corruption": 0.001979523525473529,
+        "quality": 0.48829557853085653,
+        "severity": 0.005100459109858743,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 19,
+        "validation_normalized_mae": 0.1394452005624771,
+        "loss": 0.0317705970789705,
+        "regression": 0.005386369702007089,
+        "corruption": 0.001510133222577029,
+        "quality": 0.5173250564507076,
+        "severity": 0.005829082136707646,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 20,
+        "validation_normalized_mae": 0.1391882747411728,
+        "loss": 0.03317432903817722,
+        "regression": 0.005806411034427583,
+        "corruption": 0.0016778350150811353,
+        "quality": 0.5364062998976026,
+        "severity": 0.00591855073746826,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 21,
+        "validation_normalized_mae": 0.13341611623764038,
+        "loss": 0.03124827000179461,
+        "regression": 0.004580359257358525,
+        "corruption": 0.0020769050128624906,
+        "quality": 0.5224461257457733,
+        "severity": 0.004681366711987981,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 22,
+        "validation_normalized_mae": 0.13417664170265198,
+        "loss": 0.025750463429306234,
+        "regression": 0.003965357900597155,
+        "corruption": 0.001375460805970111,
+        "quality": 0.42696780604975565,
+        "severity": 0.004607920917416257,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 23,
+        "validation_normalized_mae": 0.14465300738811493,
+        "loss": 0.02513395276452814,
+        "regression": 0.0036484942372356144,
+        "corruption": 0.0010899153878978854,
+        "quality": 0.422272299017225,
+        "severity": 0.004167116346902081,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 24,
+        "validation_normalized_mae": 0.13769690692424774,
+        "loss": 0.04282727371901274,
+        "regression": 0.00624498537009848,
+        "corruption": 0.005372683476057968,
+        "quality": 0.7091306235109057,
+        "severity": 0.006397082370572856,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": false,
+    "architecture": "cnn",
+    "seed": 43,
+    "stage": "base",
+    "duration_s": 2.7736687660217285,
+    "train_cases": 864
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 7,
+    "best_validation_score": 0.12464597821235657,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.13007329404354095,
+        "loss": 0.024152554078575444,
+        "regression": 0.0035372175454326414,
+        "corruption": 0.0012448443277903339,
+        "quality": 0.40516430665464964,
+        "severity": 0.00340788223205463,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.12654300034046173,
+        "loss": 0.01942845099769971,
+        "regression": 0.0027514569057316028,
+        "corruption": 0.0006439572872991181,
+        "quality": 0.3287161711384268,
+        "severity": 0.002891828432706568,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.1267414540052414,
+        "loss": 0.01832476808853886,
+        "regression": 0.002592120514771737,
+        "corruption": 0.0004295837784679059,
+        "quality": 0.31063104070284786,
+        "severity": 0.002733152623370509,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.12768197059631348,
+        "loss": 0.018235726775053668,
+        "regression": 0.0024614696123856396,
+        "corruption": 0.0003367832113701083,
+        "quality": 0.31188127004048405,
+        "severity": 0.002593522846890504,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.12594716250896454,
+        "loss": 0.017279217923607898,
+        "regression": 0.0023481618777355727,
+        "corruption": 0.0003230173811864327,
+        "quality": 0.2951483082245378,
+        "severity": 0.002503755605122184,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.125436469912529,
+        "loss": 0.016740068272851846,
+        "regression": 0.0021319764200598,
+        "corruption": 0.00034441321964978296,
+        "quality": 0.2886726084877463,
+        "severity": 0.0024559813216054704,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.12464597821235657,
+        "loss": 0.015696042518624487,
+        "regression": 0.0019488685339798823,
+        "corruption": 0.0002943673282382352,
+        "quality": 0.2716183228527798,
+        "severity": 0.002442048506482559,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.12744320929050446,
+        "loss": 0.015258267658817418,
+        "regression": 0.0018438478034701856,
+        "corruption": 0.0002754526347630685,
+        "quality": 0.26498982704737606,
+        "severity": 0.002472208538914428,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": false,
+    "architecture": "cnn",
+    "seed": 43,
+    "stage": "continued_base",
+    "duration_s": 2.020925283432007,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.11116679757833481,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.13455213606357574,
+        "loss": 0.09400314881521113,
+        "regression": 0.021190060686100933,
+        "corruption": 0.22004254732061834,
+        "quality": 0.7536859161713544,
+        "severity": 0.04244818105636274,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.129680797457695,
+        "loss": 0.0704585013582426,
+        "regression": 0.019000552950755638,
+        "corruption": 0.10242397086147,
+        "quality": 0.6925422671963187,
+        "severity": 0.029344758840606493,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.12901678681373596,
+        "loss": 0.06292826682329178,
+        "regression": 0.017893154502791518,
+        "corruption": 0.06505874566295568,
+        "quality": 0.6820301501189961,
+        "severity": 0.023495847140164935,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.1195082738995552,
+        "loss": 0.059026447289130264,
+        "regression": 0.017081706045085892,
+        "corruption": 0.047173793044160396,
+        "quality": 0.6762631325160756,
+        "severity": 0.0211103098357425,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.12788499891757965,
+        "loss": 0.055863241719848966,
+        "regression": 0.015953748048666644,
+        "corruption": 0.035916524227051175,
+        "quality": 0.6714355402133044,
+        "severity": 0.0190047420670881,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.11401070654392242,
+        "loss": 0.0535617405000855,
+        "regression": 0.015101552475243807,
+        "corruption": 0.02784433780128465,
+        "quality": 0.6684005909106311,
+        "severity": 0.017270140103338397,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.11286571621894836,
+        "loss": 0.052447747110443955,
+        "regression": 0.014505323625224479,
+        "corruption": 0.022855828023132158,
+        "quality": 0.6738102909396676,
+        "severity": 0.01647067245315103,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.11116679757833481,
+        "loss": 0.05133779303115957,
+        "regression": 0.01417850612607949,
+        "corruption": 0.019592746982679647,
+        "quality": 0.6686452346689561,
+        "severity": 0.01576224626863704,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": false,
+    "architecture": "cnn",
+    "seed": 43,
+    "stage": "robust_adaptation",
+    "duration_s": 1.996903896331787,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.10990507155656815,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.13460059463977814,
+        "loss": 0.10551290498936877,
+        "regression": 0.020826268886380336,
+        "corruption": 0.2179443075814668,
+        "quality": 0.9522988673518685,
+        "severity": 0.044002016184522826,
+        "coverage_penalty": 0.001989693169889506
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.12687580287456512,
+        "loss": 0.08538100397323861,
+        "regression": 0.01875702414990348,
+        "corruption": 0.09897100147517289,
+        "quality": 0.98645940247704,
+        "severity": 0.030500148642150796,
+        "coverage_penalty": 0.0008327764297278276
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.1272861212491989,
+        "loss": 0.07563178285079844,
+        "regression": 0.017635760294711766,
+        "corruption": 0.06355072536012706,
+        "quality": 0.9327940432464376,
+        "severity": 0.02296421885052148,
+        "coverage_penalty": 0.0006432955285425671
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.11878427118062973,
+        "loss": 0.0711105076924843,
+        "regression": 0.016754245933364418,
+        "corruption": 0.046103873892742044,
+        "quality": 0.9180337523712832,
+        "severity": 0.02073817645363948,
+        "coverage_penalty": 0.0005097274930083065
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.1311836838722229,
+        "loss": 0.06489752550773761,
+        "regression": 0.01570002655224765,
+        "corruption": 0.03609233941225445,
+        "quality": 0.8495364276801839,
+        "severity": 0.01889486608150251,
+        "coverage_penalty": 0.00040415292605690836
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.11531960964202881,
+        "loss": 0.06253553631112856,
+        "regression": 0.015054018072345677,
+        "corruption": 0.029130859190926832,
+        "quality": 0.8390030001892763,
+        "severity": 0.017395168268943533,
+        "coverage_penalty": 0.00034677004099220913
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.11158235371112823,
+        "loss": 0.06139501633451266,
+        "regression": 0.014375408344409046,
+        "corruption": 0.024096043944797096,
+        "quality": 0.8443540597663206,
+        "severity": 0.016614854828838038,
+        "coverage_penalty": 0.00042260925836417836
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.10990507155656815,
+        "loss": 0.05966411969240974,
+        "regression": 0.01397766318062649,
+        "corruption": 0.02107870113104582,
+        "quality": 0.8287728148348191,
+        "severity": 0.015901884365388575,
+        "coverage_penalty": 0.0003672526777068817
+      }
+    ],
+    "n_parameters": 50699,
+    "selective_objective": true,
+    "architecture": "cnn",
+    "seed": 43,
+    "stage": "selective_adaptation",
+    "duration_s": 2.0243327617645264,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 24,
+      "batch_size": 64,
+      "learning_rate": 0.002,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 24,
+    "best_validation_score": 0.13290758430957794,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.3351263403892517,
+        "loss": 0.22340523451566696,
+        "regression": 0.09033831102507454,
+        "corruption": 0.6446314368929181,
+        "quality": 0.5430202824728829,
+        "severity": 0.1844237595796585,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.32078224420547485,
+        "loss": 0.1711756650890623,
+        "regression": 0.076661331312997,
+        "corruption": 0.4354474140065057,
+        "quality": 0.46922698616981506,
+        "severity": 0.1147174249802317,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.302055686712265,
+        "loss": 0.15214411382164275,
+        "regression": 0.07281499994652611,
+        "corruption": 0.3536394621644701,
+        "quality": 0.4530870509999139,
+        "severity": 0.07257675752043724,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.2189837098121643,
+        "loss": 0.12860392034053802,
+        "regression": 0.05065637081861496,
+        "corruption": 0.3193621443850653,
+        "quality": 0.5401239054543632,
+        "severity": 0.0607405211776495,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.17025130987167358,
+        "loss": 0.08570127268987042,
+        "regression": 0.026925490370818546,
+        "corruption": 0.17214569449424744,
+        "quality": 0.6255777265344348,
+        "severity": 0.033500803634524345,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.15763674676418304,
+        "loss": 0.057693066341536384,
+        "regression": 0.019871445505746772,
+        "corruption": 0.03481004287355712,
+        "quality": 0.6403489325727735,
+        "severity": 0.011653358715453319,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.15951770544052124,
+        "loss": 0.05265742513750281,
+        "regression": 0.016048993383135115,
+        "corruption": 0.023672545395259346,
+        "quality": 0.6499089470931462,
+        "severity": 0.011242026629458581,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.14379055798053741,
+        "loss": 0.04783734093819346,
+        "regression": 0.014114324602165393,
+        "corruption": 0.017871776928326914,
+        "quality": 0.6107351098741803,
+        "severity": 0.01010988762469164,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 9,
+        "validation_normalized_mae": 0.13939499855041504,
+        "loss": 0.04569573966520173,
+        "regression": 0.011188481535230364,
+        "corruption": 0.015763287598799382,
+        "quality": 0.6340455881186894,
+        "severity": 0.008809715808768357,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 10,
+        "validation_normalized_mae": 0.13872306048870087,
+        "loss": 0.04743980137365205,
+        "regression": 0.010664562561682292,
+        "corruption": 0.014512071319456612,
+        "quality": 0.6836464532784053,
+        "severity": 0.008322088214169656,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 11,
+        "validation_normalized_mae": 0.13629771769046783,
+        "loss": 0.04113791270979813,
+        "regression": 0.008193252342087882,
+        "corruption": 0.012998157862706907,
+        "quality": 0.6123943839754377,
+        "severity": 0.007504336702238236,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 12,
+        "validation_normalized_mae": 0.13469374179840088,
+        "loss": 0.03618745479200568,
+        "regression": 0.007882713074130672,
+        "corruption": 0.005537991012845721,
+        "quality": 0.5433135756424495,
+        "severity": 0.006167278990947774,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 13,
+        "validation_normalized_mae": 0.1443430483341217,
+        "loss": 0.03660251945257187,
+        "regression": 0.007195821663896952,
+        "corruption": 0.004689675855583378,
+        "quality": 0.5676327688353402,
+        "severity": 0.006432141443448407,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 14,
+        "validation_normalized_mae": 0.13400474190711975,
+        "loss": 0.036777708014207225,
+        "regression": 0.006271179482739951,
+        "corruption": 0.003623198235540518,
+        "quality": 0.5927766518933433,
+        "severity": 0.006484304637914258,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 15,
+        "validation_normalized_mae": 0.1357680708169937,
+        "loss": 0.032394662366381714,
+        "regression": 0.004952785708675427,
+        "corruption": 0.002837040345184505,
+        "quality": 0.5342009450708117,
+        "severity": 0.006125459214672446,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 16,
+        "validation_normalized_mae": 0.13309329748153687,
+        "loss": 0.02942827995866537,
+        "regression": 0.004494268364006919,
+        "corruption": 0.0017552892843793546,
+        "quality": 0.4888989584786551,
+        "severity": 0.004515393853320607,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 17,
+        "validation_normalized_mae": 0.13547161221504211,
+        "loss": 0.02758828377617257,
+        "regression": 0.004058016114868224,
+        "corruption": 0.0012336649566090532,
+        "quality": 0.4626676780836923,
+        "severity": 0.004236683382519654,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 18,
+        "validation_normalized_mae": 0.13362200558185577,
+        "loss": 0.026968736733709062,
+        "regression": 0.0038412443328914897,
+        "corruption": 0.0010145554842893034,
+        "quality": 0.4550370126962662,
+        "severity": 0.0044691553339362144,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 19,
+        "validation_normalized_mae": 0.1358550786972046,
+        "loss": 0.026954245753586292,
+        "regression": 0.004091283888556063,
+        "corruption": 0.0010631305090750434,
+        "quality": 0.44925049585955484,
+        "severity": 0.004819344629400543,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 20,
+        "validation_normalized_mae": 0.13742463290691376,
+        "loss": 0.02767145979617323,
+        "regression": 0.0035536710139630096,
+        "corruption": 0.0013406318321358413,
+        "quality": 0.4734471099717276,
+        "severity": 0.004886764583976141,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 21,
+        "validation_normalized_mae": 0.13326643407344818,
+        "loss": 0.026893574079232558,
+        "regression": 0.003728467405640653,
+        "corruption": 0.00116442479442672,
+        "quality": 0.4552992305585316,
+        "severity": 0.00450961258528488,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 22,
+        "validation_normalized_mae": 0.1405775099992752,
+        "loss": 0.023157370808933462,
+        "regression": 0.003120862429828516,
+        "corruption": 0.0013583889937893087,
+        "quality": 0.3921821862459183,
+        "severity": 0.004472804505244962,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 23,
+        "validation_normalized_mae": 0.14528559148311615,
+        "loss": 0.022963138430246284,
+        "regression": 0.002763746281354023,
+        "corruption": 0.0008555857930332422,
+        "quality": 0.3973821997642517,
+        "severity": 0.004038881028204092,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 24,
+        "validation_normalized_mae": 0.13290758430957794,
+        "loss": 0.02543991059064865,
+        "regression": 0.0030373092241851346,
+        "corruption": 0.001166073459899053,
+        "quality": 0.4407277192388262,
+        "severity": 0.003826083449114646,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": false,
+    "architecture": "transformer",
+    "seed": 17,
+    "stage": "base",
+    "duration_s": 3.6999166011810303,
+    "train_cases": 864
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.1256115436553955,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.129900723695755,
+        "loss": 0.02098763977889629,
+        "regression": 0.002509927380528739,
+        "corruption": 0.0015055582120754372,
+        "quality": 0.36160950932432623,
+        "severity": 0.003428053418996141,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.13161423802375793,
+        "loss": 0.014021811267251478,
+        "regression": 0.0015744710005545879,
+        "corruption": 0.0004308453109628959,
+        "quality": 0.24472327837172678,
+        "severity": 0.0029309857448371235,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.12749306857585907,
+        "loss": 0.012958898893831408,
+        "regression": 0.0015312839172753122,
+        "corruption": 0.00041382150555043206,
+        "quality": 0.22448627891785958,
+        "severity": 0.0028245504363439977,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.12679582834243774,
+        "loss": 0.009735765791607691,
+        "regression": 0.0012930673119091593,
+        "corruption": 0.00025071286044669035,
+        "quality": 0.16528519056737423,
+        "severity": 0.0028166368925560486,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.12805406749248505,
+        "loss": 0.008958574925439762,
+        "regression": 0.0011850277574815076,
+        "corruption": 0.00016962363524191247,
+        "quality": 0.15213681187699823,
+        "severity": 0.002825257508768974,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.1299130767583847,
+        "loss": 0.008027930045500398,
+        "regression": 0.0010676586808746353,
+        "corruption": 0.0001467386246076785,
+        "quality": 0.13600932215066516,
+        "severity": 0.0027558862895923943,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.12681618332862854,
+        "loss": 0.007617274929276284,
+        "regression": 0.0011016285296885624,
+        "corruption": 0.0001375893260795719,
+        "quality": 0.1271409654222867,
+        "severity": 0.002759193638613557,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.1256115436553955,
+        "loss": 0.006703435422797852,
+        "regression": 0.000958443369360312,
+        "corruption": 0.00011520619377466467,
+        "quality": 0.11168225043836762,
+        "severity": 0.0028719705519239034,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": false,
+    "architecture": "transformer",
+    "seed": 17,
+    "stage": "continued_base",
+    "duration_s": 2.7931251525878906,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.10876251012086868,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.1291114240884781,
+        "loss": 0.1010577483650516,
+        "regression": 0.019462529788998997,
+        "corruption": 0.2722206895842272,
+        "quality": 0.7666951873723198,
+        "severity": 0.04854706510463182,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.12513922154903412,
+        "loss": 0.06910420877530295,
+        "regression": 0.016280443298027795,
+        "corruption": 0.10934722182505272,
+        "quality": 0.6871960724101347,
+        "severity": 0.041237528271534866,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.12017883360385895,
+        "loss": 0.06127037502386991,
+        "regression": 0.015067256767960155,
+        "corruption": 0.07297824038302198,
+        "quality": 0.6753559656002942,
+        "severity": 0.02977165749625248,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.12960846722126007,
+        "loss": 0.05690215944367297,
+        "regression": 0.014209067887243102,
+        "corruption": 0.05439930924159639,
+        "quality": 0.6693879751598134,
+        "severity": 0.02127590819316752,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.11849886924028397,
+        "loss": 0.05358744719449211,
+        "regression": 0.013293237165164421,
+        "corruption": 0.04046079017879332,
+        "quality": 0.6654003998812508,
+        "severity": 0.019101405023213697,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.12097571790218353,
+        "loss": 0.051896023070987535,
+        "regression": 0.012984497472643852,
+        "corruption": 0.030343851731980547,
+        "quality": 0.6693926734082839,
+        "severity": 0.01780626657144988,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.11594002693891525,
+        "loss": 0.04992724341504714,
+        "regression": 0.012243482065113151,
+        "corruption": 0.024829202495953617,
+        "quality": 0.6618715261711794,
+        "severity": 0.017316076822359774,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.10876251012086868,
+        "loss": 0.047420321361106986,
+        "regression": 0.011184006518519977,
+        "corruption": 0.019125929951448652,
+        "quality": 0.6507822169977076,
+        "severity": 0.016566266908365136,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": false,
+    "architecture": "transformer",
+    "seed": 17,
+    "stage": "robust_adaptation",
+    "duration_s": 2.7932326793670654,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.10820905864238739,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.13185365498065948,
+        "loss": 0.106439128956374,
+        "regression": 0.01946941642638515,
+        "corruption": 0.24832410825526013,
+        "quality": 0.9159257990472457,
+        "severity": 0.04960759192266885,
+        "coverage_penalty": 0.0012819627993795781
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.12478025257587433,
+        "loss": 0.07637518271803856,
+        "regression": 0.01642774146817186,
+        "corruption": 0.10073872480322332,
+        "quality": 0.8491662775768953,
+        "severity": 0.040735752376563406,
+        "coverage_penalty": 0.0002873454410585991
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.11988930404186249,
+        "loss": 0.06735811787931358,
+        "regression": 0.015009462984059663,
+        "corruption": 0.07061535185750793,
+        "quality": 0.8014969773152295,
+        "severity": 0.02821678399820538,
+        "coverage_penalty": 0.00026047170016387525
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.12664231657981873,
+        "loss": 0.06344135445268716,
+        "regression": 0.01413387673742631,
+        "corruption": 0.05279460604138234,
+        "quality": 0.8011777488624349,
+        "severity": 0.021071660277598044,
+        "coverage_penalty": 0.0003135779239454785
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.11740520596504211,
+        "loss": 0.0598338306607569,
+        "regression": 0.013211272711701253,
+        "corruption": 0.03938999125624404,
+        "quality": 0.7888980560442981,
+        "severity": 0.018929776242550683,
+        "coverage_penalty": 0.0003702252640711295
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.12002643942832947,
+        "loss": 0.05905759860487545,
+        "regression": 0.012933983535998884,
+        "corruption": 0.029009046443902394,
+        "quality": 0.8121611300636741,
+        "severity": 0.017528506571098286,
+        "coverage_penalty": 0.00032885537457867246
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.11278127133846283,
+        "loss": 0.05647126990644371,
+        "regression": 0.012283697655862746,
+        "corruption": 0.024894196211415177,
+        "quality": 0.7864393697065466,
+        "severity": 0.017289170365342322,
+        "coverage_penalty": 0.00031477233966119696
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.10820905864238739,
+        "loss": 0.05378655256593928,
+        "regression": 0.011262910933617283,
+        "corruption": 0.01894446284345844,
+        "quality": 0.7706937123747433,
+        "severity": 0.01647761305246283,
+        "coverage_penalty": 0.0003727070124221106
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": true,
+    "architecture": "transformer",
+    "seed": 17,
+    "stage": "selective_adaptation",
+    "duration_s": 2.820905923843384,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 24,
+      "batch_size": 64,
+      "learning_rate": 0.002,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 21,
+    "best_validation_score": 0.13071447610855103,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.3266153931617737,
+        "loss": 0.23064475719417846,
+        "regression": 0.09211856020348412,
+        "corruption": 0.6590795559542519,
+        "quality": 0.6201066502502987,
+        "severity": 0.1731785801904542,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.3259386420249939,
+        "loss": 0.18559609247105463,
+        "regression": 0.07643341326287814,
+        "corruption": 0.5389905018465859,
+        "quality": 0.4322109307561602,
+        "severity": 0.13407113828829356,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.30169183015823364,
+        "loss": 0.15837410624538148,
+        "regression": 0.07374537789395877,
+        "corruption": 0.37814317643642426,
+        "quality": 0.48046586768967764,
+        "severity": 0.07767911893980843,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.244637131690979,
+        "loss": 0.13150922634771892,
+        "regression": 0.053765572873609405,
+        "corruption": 0.3247185988085611,
+        "quality": 0.5171526947191784,
+        "severity": 0.06356449505048138,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.22441597282886505,
+        "loss": 0.10220466021980558,
+        "regression": 0.03677432957504477,
+        "corruption": 0.21992563722389086,
+        "quality": 0.5970862039497921,
+        "severity": 0.05174344179353544,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.19750827550888062,
+        "loss": 0.06610526091286115,
+        "regression": 0.02973833560411419,
+        "corruption": 0.0340521804589246,
+        "quality": 0.6073093329157148,
+        "severity": 0.017872609730277742,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.1932530552148819,
+        "loss": 0.056515292663659365,
+        "regression": 0.021657890174537897,
+        "corruption": 0.01158297308055418,
+        "quality": 0.6523153824465615,
+        "severity": 0.010083719522559218,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.16365650296211243,
+        "loss": 0.05225841887295246,
+        "regression": 0.01678247536931719,
+        "corruption": 0.01262103721299874,
+        "quality": 0.6615472563675472,
+        "severity": 0.010108489975599306,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 9,
+        "validation_normalized_mae": 0.16222624480724335,
+        "loss": 0.04743617054607187,
+        "regression": 0.012333250271954707,
+        "corruption": 0.011655845513035144,
+        "quality": 0.658079981803894,
+        "severity": 0.009010863457141178,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 10,
+        "validation_normalized_mae": 0.1468382626771927,
+        "loss": 0.04291046703500407,
+        "regression": 0.011308731178620033,
+        "corruption": 0.008421645882273359,
+        "quality": 0.5981470687048775,
+        "severity": 0.0086227043398789,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 11,
+        "validation_normalized_mae": 0.15249262750148773,
+        "loss": 0.03980079772216933,
+        "regression": 0.008914543448814325,
+        "corruption": 0.008029543545230158,
+        "quality": 0.5845380702189037,
+        "severity": 0.009098391347963895,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 12,
+        "validation_normalized_mae": 0.14279426634311676,
+        "loss": 0.036515627189406326,
+        "regression": 0.007016292972756284,
+        "corruption": 0.0050148019134732226,
+        "quality": 0.5671478935650417,
+        "severity": 0.00779438770509192,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 13,
+        "validation_normalized_mae": 0.1393050253391266,
+        "loss": 0.04056188144854137,
+        "regression": 0.007270591566339135,
+        "corruption": 0.0046243763562025765,
+        "quality": 0.6448668752397809,
+        "severity": 0.0070857844049377105,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 14,
+        "validation_normalized_mae": 0.13800138235092163,
+        "loss": 0.03810388568256583,
+        "regression": 0.006239154076735888,
+        "corruption": 0.005057593025932354,
+        "quality": 0.6146559992006847,
+        "severity": 0.007465837090941412,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 15,
+        "validation_normalized_mae": 0.13987840712070465,
+        "loss": 0.03280404968453305,
+        "regression": 0.005178670631721616,
+        "corruption": 0.0031068053961332354,
+        "quality": 0.5372281691857747,
+        "severity": 0.005958978153233018,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 16,
+        "validation_normalized_mae": 0.1461847573518753,
+        "loss": 0.029342375695705414,
+        "regression": 0.004703679787261146,
+        "corruption": 0.001928932187313746,
+        "quality": 0.4816012190920966,
+        "severity": 0.005385889206081629,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 17,
+        "validation_normalized_mae": 0.1431669443845749,
+        "loss": 0.03312828631273338,
+        "regression": 0.0046386397111096555,
+        "corruption": 0.001431642150107239,
+        "quality": 0.5602040886878967,
+        "severity": 0.005293901045141476,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 18,
+        "validation_normalized_mae": 0.1339329034090042,
+        "loss": 0.029289720313889638,
+        "regression": 0.004278710394698594,
+        "corruption": 0.002078927945279117,
+        "quality": 0.48870092417512623,
+        "severity": 0.005282477525595043,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 19,
+        "validation_normalized_mae": 0.1375453919172287,
+        "loss": 0.03242941639785256,
+        "regression": 0.0040961795353463715,
+        "corruption": 0.0018912999907375447,
+        "quality": 0.5560311589922223,
+        "severity": 0.004959662478151066,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 20,
+        "validation_normalized_mae": 0.1322595179080963,
+        "loss": 0.027955308024372374,
+        "regression": 0.0035931074526160955,
+        "corruption": 0.002813629074288266,
+        "quality": 0.4735145632709776,
+        "severity": 0.0052885546215942925,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 21,
+        "validation_normalized_mae": 0.13071447610855103,
+        "loss": 0.024185007704155787,
+        "regression": 0.0029307668696024586,
+        "corruption": 0.0014243795012589544,
+        "quality": 0.4152850125517164,
+        "severity": 0.005526658546711717,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 22,
+        "validation_normalized_mae": 0.13422445952892303,
+        "loss": 0.021873161728893007,
+        "regression": 0.0026187358806574984,
+        "corruption": 0.0008924143704851824,
+        "quality": 0.376924740416663,
+        "severity": 0.005486531981400081,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 23,
+        "validation_normalized_mae": 0.1454239785671234,
+        "loss": 0.022573708689638546,
+        "regression": 0.0028961594216525555,
+        "corruption": 0.0008443873458808022,
+        "quality": 0.3861141460282462,
+        "severity": 0.0049036718306264705,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 24,
+        "validation_normalized_mae": 0.14628440141677856,
+        "loss": 0.01986716834029981,
+        "regression": 0.002481717142342989,
+        "corruption": 0.0007163509705735903,
+        "quality": 0.3413373955658504,
+        "severity": 0.004222577737112131,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": false,
+    "architecture": "transformer",
+    "seed": 29,
+    "stage": "base",
+    "duration_s": 3.6860101222991943,
+    "train_cases": 864
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.1270044595003128,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.1302396059036255,
+        "loss": 0.025149950072826707,
+        "regression": 0.0029088426210150562,
+        "corruption": 0.0016894325749222737,
+        "quality": 0.435246562694802,
+        "severity": 0.004507274147780503,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.12987054884433746,
+        "loss": 0.01737428634591839,
+        "regression": 0.0019962427220033374,
+        "corruption": 0.0006803253508063362,
+        "quality": 0.30180051528355656,
+        "severity": 0.003719375639989534,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.13074462115764618,
+        "loss": 0.016128949410117725,
+        "regression": 0.0019122700391830329,
+        "corruption": 0.00041561812438029684,
+        "quality": 0.27977071132730036,
+        "severity": 0.0033160170389558465,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.12983368337154388,
+        "loss": 0.014694083673769938,
+        "regression": 0.001663659343167263,
+        "corruption": 0.00032328702089965674,
+        "quality": 0.2564064632443821,
+        "severity": 0.003232154231655466,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.128131702542305,
+        "loss": 0.01496642638983972,
+        "regression": 0.0016197154969524812,
+        "corruption": 0.00023765386397238164,
+        "quality": 0.2631454669377383,
+        "severity": 0.0030757840791278902,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.12740907073020935,
+        "loss": 0.013247381443815195,
+        "regression": 0.0015331348815165898,
+        "corruption": 0.0002713087566970738,
+        "quality": 0.23021067503620596,
+        "severity": 0.0032603247912929337,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.12865781784057617,
+        "loss": 0.014481584048446487,
+        "regression": 0.0016432460192043114,
+        "corruption": 0.00023020678653505028,
+        "quality": 0.2530078622786438,
+        "severity": 0.0030682721476563636,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.1270044595003128,
+        "loss": 0.01216953103978406,
+        "regression": 0.001445306251030963,
+        "corruption": 0.0002219100777652142,
+        "quality": 0.2107972978230785,
+        "severity": 0.003021464285933796,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": false,
+    "architecture": "transformer",
+    "seed": 29,
+    "stage": "continued_base",
+    "duration_s": 2.8137478828430176,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.11393790692090988,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.12869836390018463,
+        "loss": 0.11058436180738841,
+        "regression": 0.018740885151440605,
+        "corruption": 0.3121517458382775,
+        "quality": 0.8523919038912829,
+        "severity": 0.04802231627571232,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.12683099508285522,
+        "loss": 0.07200979233226355,
+        "regression": 0.016339722034685752,
+        "corruption": 0.12642294475260904,
+        "quality": 0.6973057003582225,
+        "severity": 0.03682682915207218,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.12203144282102585,
+        "loss": 0.06582236005102887,
+        "regression": 0.015539560850490542,
+        "corruption": 0.09574903197148267,
+        "quality": 0.6916021494304433,
+        "severity": 0.026806709849659133,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.11927971243858337,
+        "loss": 0.061435087857877504,
+        "regression": 0.01500614472281407,
+        "corruption": 0.07489595682743717,
+        "quality": 0.6807359825162327,
+        "severity": 0.023155001101686674,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.11685344576835632,
+        "loss": 0.05697441243511789,
+        "regression": 0.013728050953325103,
+        "corruption": 0.05951725077979705,
+        "quality": 0.6660719215869904,
+        "severity": 0.020303533850785566,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.11865808814764023,
+        "loss": 0.05403410500901587,
+        "regression": 0.013219046187313163,
+        "corruption": 0.04531402327120304,
+        "quality": 0.6628039233824786,
+        "severity": 0.017555178937447423,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.11546478420495987,
+        "loss": 0.05071837137288907,
+        "regression": 0.012350438354427324,
+        "corruption": 0.03449935816666659,
+        "quality": 0.64841187526198,
+        "severity": 0.015448702170568354,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.11393790692090988,
+        "loss": 0.04926088627646951,
+        "regression": 0.01163689445649438,
+        "corruption": 0.02652927814051509,
+        "quality": 0.6594604323892033,
+        "severity": 0.013431548264206332,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": false,
+    "architecture": "transformer",
+    "seed": 29,
+    "stage": "robust_adaptation",
+    "duration_s": 2.811152935028076,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 6,
+    "best_validation_score": 0.11273577809333801,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.1302836388349533,
+        "loss": 0.119581048760344,
+        "regression": 0.01891341882155222,
+        "corruption": 0.3101944603464183,
+        "quality": 1.0017259278718162,
+        "severity": 0.04948590175413033,
+        "coverage_penalty": 0.0014345156126806308
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.12935715913772583,
+        "loss": 0.08320299733211012,
+        "regression": 0.016628154663040358,
+        "corruption": 0.12226562180063304,
+        "quality": 0.9141816672156838,
+        "severity": 0.03946410387973575,
+        "coverage_penalty": 0.0004868528062080954
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.1212533563375473,
+        "loss": 0.07578154302695218,
+        "regression": 0.01577051293433589,
+        "corruption": 0.08890433346523959,
+        "quality": 0.8988712622838861,
+        "severity": 0.026783550377277768,
+        "coverage_penalty": 0.0003363198556786194
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.11786089092493057,
+        "loss": 0.0711562139365603,
+        "regression": 0.015181267360115753,
+        "corruption": 0.06989050075850066,
+        "quality": 0.8793037849314073,
+        "severity": 0.02270325903287705,
+        "coverage_penalty": 0.0003621866413363464
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.1141134649515152,
+        "loss": 0.06647018737652723,
+        "regression": 0.014014600639176719,
+        "corruption": 0.05668637287967345,
+        "quality": 0.8485547777484445,
+        "severity": 0.020568835056003404,
+        "coverage_penalty": 0.0004896539292745086
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.11273577809333801,
+        "loss": 0.06375464358750511,
+        "regression": 0.013405880315557998,
+        "corruption": 0.04408598389914807,
+        "quality": 0.8465036504408893,
+        "severity": 0.01877472338759724,
+        "coverage_penalty": 0.00047950815716834476
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.11346866935491562,
+        "loss": 0.05931710670976078,
+        "regression": 0.01247753033085781,
+        "corruption": 0.03501919426900499,
+        "quality": 0.8074803965933183,
+        "severity": 0.01746522862573757,
+        "coverage_penalty": 0.0003669587244659437
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.11638694256544113,
+        "loss": 0.0595391002648017,
+        "regression": 0.012015202520963024,
+        "corruption": 0.027781216701602236,
+        "quality": 0.8432137405171114,
+        "severity": 0.016054635347031495,
+        "coverage_penalty": 0.000423173465017445
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": true,
+    "architecture": "transformer",
+    "seed": 29,
+    "stage": "selective_adaptation",
+    "duration_s": 2.817646026611328,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 24,
+      "batch_size": 64,
+      "learning_rate": 0.002,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 22,
+    "best_validation_score": 0.12867587804794312,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.32648900151252747,
+        "loss": 0.23200736620596477,
+        "regression": 0.09810465361390795,
+        "corruption": 0.6281972016607013,
+        "quality": 0.6036297593797956,
+        "severity": 0.18983283745391027,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.32770371437072754,
+        "loss": 0.17216997700078146,
+        "regression": 0.07603920942970685,
+        "corruption": 0.4491328703505652,
+        "quality": 0.4387716544525964,
+        "severity": 0.13644494542053767,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.2972003221511841,
+        "loss": 0.15140409980501449,
+        "regression": 0.07199147024324962,
+        "corruption": 0.36326191467898233,
+        "quality": 0.4164627971393721,
+        "severity": 0.08200398672904287,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.24731825292110443,
+        "loss": 0.13088002960596765,
+        "regression": 0.04907223981406007,
+        "corruption": 0.341779534305845,
+        "quality": 0.5405100520168032,
+        "severity": 0.07030706852674484,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.1723325252532959,
+        "loss": 0.10615282558969089,
+        "regression": 0.026138762743877515,
+        "corruption": 0.29449901836259024,
+        "quality": 0.6503684350422451,
+        "severity": 0.066415721816676,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.16386951506137848,
+        "loss": 0.07193408108183316,
+        "regression": 0.020305655830140625,
+        "corruption": 0.10990018703575645,
+        "quality": 0.6718978839261192,
+        "severity": 0.03097003372386098,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.166720449924469,
+        "loss": 0.05037611456854003,
+        "regression": 0.014122860838792153,
+        "corruption": 0.016642933678148047,
+        "quality": 0.6626636641366142,
+        "severity": 0.012472601873534066,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.14905431866645813,
+        "loss": 0.04685269854962826,
+        "regression": 0.01111265055702201,
+        "corruption": 0.009067627252079546,
+        "quality": 0.6790068064417157,
+        "severity": 0.008591256802901626,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 9,
+        "validation_normalized_mae": 0.14896146953105927,
+        "loss": 0.038924857175775936,
+        "regression": 0.007685240990083132,
+        "corruption": 0.009925838027681624,
+        "quality": 0.5867830153022494,
+        "severity": 0.008231770879189883,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 10,
+        "validation_normalized_mae": 0.14112485945224762,
+        "loss": 0.03869975105460201,
+        "regression": 0.00804019273657884,
+        "corruption": 0.006540486223197409,
+        "quality": 0.586014353803226,
+        "severity": 0.007555330804150019,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 11,
+        "validation_normalized_mae": 0.13941584527492523,
+        "loss": 0.03398311390940632,
+        "regression": 0.0058692078039582285,
+        "corruption": 0.006860627792775631,
+        "quality": 0.5353139936923981,
+        "severity": 0.006382227842030781,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 12,
+        "validation_normalized_mae": 0.13884200155735016,
+        "loss": 0.028294738249054978,
+        "regression": 0.0044996429434312245,
+        "corruption": 0.0048124461401520035,
+        "quality": 0.45501743044172016,
+        "severity": 0.0064471222659839055,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 13,
+        "validation_normalized_mae": 0.13468696177005768,
+        "loss": 0.027033871239317313,
+        "regression": 0.0034275539053071824,
+        "corruption": 0.0035948578900258455,
+        "quality": 0.45511370045798166,
+        "severity": 0.006228063371963799,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 14,
+        "validation_normalized_mae": 0.13090063631534576,
+        "loss": 0.023163506761193275,
+        "regression": 0.00276279155098434,
+        "corruption": 0.003253031912858465,
+        "quality": 0.39278129807540346,
+        "severity": 0.005473891489340791,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 15,
+        "validation_normalized_mae": 0.13361357152462006,
+        "loss": 0.022398451077086583,
+        "regression": 0.0027020194268386278,
+        "corruption": 0.0019126510929449328,
+        "quality": 0.3830731787851879,
+        "severity": 0.005117495045331972,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 16,
+        "validation_normalized_mae": 0.13997703790664673,
+        "loss": 0.026649666151830127,
+        "regression": 0.00304852968214878,
+        "corruption": 0.001953553973830172,
+        "quality": 0.46085661223956514,
+        "severity": 0.005305464446012463,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 17,
+        "validation_normalized_mae": 0.1368023306131363,
+        "loss": 0.026002366761011735,
+        "regression": 0.002915690519980022,
+        "corruption": 0.001714784198806488,
+        "quality": 0.4515020932470049,
+        "severity": 0.005087078266244914,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 18,
+        "validation_normalized_mae": 0.14571845531463623,
+        "loss": 0.025896693978990828,
+        "regression": 0.002647099916690162,
+        "corruption": 0.0019533371419778894,
+        "quality": 0.45398665964603424,
+        "severity": 0.0051451988983899355,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 19,
+        "validation_normalized_mae": 0.1341683715581894,
+        "loss": 0.018709232565015554,
+        "regression": 0.002132149995304644,
+        "corruption": 0.0017802962933533958,
+        "quality": 0.32137527423245565,
+        "severity": 0.00482548337562808,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 20,
+        "validation_normalized_mae": 0.13021107017993927,
+        "loss": 0.0150614825210401,
+        "regression": 0.0017423273862472602,
+        "corruption": 0.0011749071252000118,
+        "quality": 0.2583316277180399,
+        "severity": 0.004526750151334065,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 21,
+        "validation_normalized_mae": 0.14109092950820923,
+        "loss": 0.01538288819470576,
+        "regression": 0.0018284979991481773,
+        "corruption": 0.0008011706938434925,
+        "quality": 0.2644012974841254,
+        "severity": 0.004282985780654209,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 22,
+        "validation_normalized_mae": 0.12867587804794312,
+        "loss": 0.014814892085269094,
+        "regression": 0.001728390418325684,
+        "corruption": 0.0008732307427895389,
+        "quality": 0.2547198991690363,
+        "severity": 0.004390439550791468,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 23,
+        "validation_normalized_mae": 0.13097454607486725,
+        "loss": 0.013240735113088573,
+        "regression": 0.0015833927235299988,
+        "corruption": 0.0007728976488579065,
+        "quality": 0.22665265468614443,
+        "severity": 0.004175491947015482,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 24,
+        "validation_normalized_mae": 0.12945649027824402,
+        "loss": 0.017614208228353943,
+        "regression": 0.0018745449903820241,
+        "corruption": 0.0007020937752843435,
+        "quality": 0.30850125529936384,
+        "severity": 0.0041857285624636075,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": false,
+    "architecture": "transformer",
+    "seed": 43,
+    "stage": "base",
+    "duration_s": 3.609786033630371,
+    "train_cases": 864
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 5,
+    "best_validation_score": 0.1257476955652237,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.12844280898571014,
+        "loss": 0.01262306168620639,
+        "regression": 0.0021244227434234586,
+        "corruption": 0.0008019210149273824,
+        "quality": 0.20409260492991,
+        "severity": 0.003474410020691507,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.12730427086353302,
+        "loss": 0.007459685398156152,
+        "regression": 0.0010310336930321202,
+        "corruption": 0.0004363925652475754,
+        "quality": 0.12394349178408876,
+        "severity": 0.0033203632509171523,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.13048753142356873,
+        "loss": 0.00693048388176762,
+        "regression": 0.0009763114212546498,
+        "corruption": 0.0002774287949090221,
+        "quality": 0.11507585825508132,
+        "severity": 0.0031753033810459517,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.12664437294006348,
+        "loss": 0.005796048677225104,
+        "regression": 0.0009144037321675569,
+        "corruption": 0.0002191314571759636,
+        "quality": 0.0937957033953246,
+        "severity": 0.0031797984299962133,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.1257476955652237,
+        "loss": 0.005914836464559331,
+        "regression": 0.0009230992171283373,
+        "corruption": 0.0001766980984778938,
+        "quality": 0.0962347672046984,
+        "severity": 0.003069882616674637,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.1278684437274933,
+        "loss": 0.004024523063836729,
+        "regression": 0.0008136049197192359,
+        "corruption": 0.00016490001358119224,
+        "quality": 0.06073750593863866,
+        "severity": 0.002986155611271148,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.12894998490810394,
+        "loss": 0.004356240716708057,
+        "regression": 0.0007552246662431999,
+        "corruption": 0.0001300126185763956,
+        "quality": 0.06870002280372907,
+        "severity": 0.00293025972581852,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.1278996616601944,
+        "loss": 0.002811846011729144,
+        "regression": 0.0006928029521505403,
+        "corruption": 0.00011332624736122157,
+        "quality": 0.039152585709577095,
+        "severity": 0.002888296323362738,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": false,
+    "architecture": "transformer",
+    "seed": 43,
+    "stage": "continued_base",
+    "duration_s": 2.7418179512023926,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.1045592874288559,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.12915615737438202,
+        "loss": 0.1089061921571984,
+        "regression": 0.018369745271389976,
+        "corruption": 0.2839435141752748,
+        "quality": 0.9135123473756454,
+        "severity": 0.04538601138355101,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.1214325800538063,
+        "loss": 0.0723951451261254,
+        "regression": 0.016340366838609472,
+        "corruption": 0.12906116926494768,
+        "quality": 0.7042955913964439,
+        "severity": 0.029616436208872235,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.12454558163881302,
+        "loss": 0.06319379685994457,
+        "regression": 0.015240501448073807,
+        "corruption": 0.08440558721914011,
+        "quality": 0.6831142288797042,
+        "severity": 0.022734896937275633,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.11771784722805023,
+        "loss": 0.056744020651368535,
+        "regression": 0.014259372481747586,
+        "corruption": 0.05525435934610227,
+        "quality": 0.6645590435056126,
+        "severity": 0.019370815798859384,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.11695786565542221,
+        "loss": 0.05263401272104067,
+        "regression": 0.01336984513053561,
+        "corruption": 0.03770572505891323,
+        "quality": 0.6549928433754865,
+        "severity": 0.01717331969891401,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.1138981431722641,
+        "loss": 0.0488621573895216,
+        "regression": 0.012335015529328409,
+        "corruption": 0.026165388908018086,
+        "quality": 0.6366315256146824,
+        "severity": 0.01541512314339771,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.10707562416791916,
+        "loss": 0.04802431089474874,
+        "regression": 0.012095602804466206,
+        "corruption": 0.02125651520841262,
+        "quality": 0.640536895569633,
+        "severity": 0.014267705353524755,
+        "coverage_penalty": 0.0
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.1045592874288559,
+        "loss": 0.04616134613752365,
+        "regression": 0.011418410261873813,
+        "corruption": 0.015188415712841293,
+        "quality": 0.637208062059739,
+        "severity": 0.012085401590036996,
+        "coverage_penalty": 0.0
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": false,
+    "architecture": "transformer",
+    "seed": 43,
+    "stage": "robust_adaptation",
+    "duration_s": 2.722808837890625,
+    "train_cases": 2160
+  },
+  {
+    "configuration": {
+      "epochs": 8,
+      "batch_size": 64,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.0001,
+      "corruption_weight": 0.15,
+      "quality_weight": 0.05,
+      "severity_weight": 0.05,
+      "target_coverage": 0.8,
+      "coverage_penalty": 8.0,
+      "gradient_clip": 2.0,
+      "cpu_threads": 2
+    },
+    "best_epoch": 8,
+    "best_validation_score": 0.10845375061035156,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_normalized_mae": 0.12989887595176697,
+        "loss": 0.11238787191755631,
+        "regression": 0.018504087648847523,
+        "corruption": 0.2802778171265827,
+        "quality": 0.9778910226681653,
+        "severity": 0.046256746220238065,
+        "coverage_penalty": 0.0005263845200448379
+      },
+      {
+        "epoch": 2,
+        "validation_normalized_mae": 0.12037542462348938,
+        "loss": 0.08037260985549759,
+        "regression": 0.01632326003164053,
+        "corruption": 0.12274399509324747,
+        "quality": 0.8720908340285806,
+        "severity": 0.031906592221382785,
+        "coverage_penalty": 0.00041334759180244873
+      },
+      {
+        "epoch": 3,
+        "validation_normalized_mae": 0.1221359446644783,
+        "loss": 0.07070381369660883,
+        "regression": 0.015117369345663226,
+        "corruption": 0.08212134198230855,
+        "quality": 0.8382065962342655,
+        "severity": 0.023134852951282963,
+        "coverage_penalty": 0.0002405708570056972
+      },
+      {
+        "epoch": 4,
+        "validation_normalized_mae": 0.11651850491762161,
+        "loss": 0.06523790955543518,
+        "regression": 0.014311583466170466,
+        "corruption": 0.056432250996722895,
+        "quality": 0.825306203435449,
+        "severity": 0.020015149815555883,
+        "coverage_penalty": 0.0002779494308050383
+      },
+      {
+        "epoch": 5,
+        "validation_normalized_mae": 0.11686188727617264,
+        "loss": 0.05976009346983012,
+        "regression": 0.013275993686607656,
+        "corruption": 0.04065427485415164,
+        "quality": 0.7853374113054836,
+        "severity": 0.017993786728338283,
+        "coverage_penalty": 0.00034830554391660103
+      },
+      {
+        "epoch": 6,
+        "validation_normalized_mae": 0.10946545004844666,
+        "loss": 0.05641516111791134,
+        "regression": 0.012474499355234644,
+        "corruption": 0.029122026856331265,
+        "quality": 0.772495241726146,
+        "severity": 0.01628430565709577,
+        "coverage_penalty": 0.0002842300618368654
+      },
+      {
+        "epoch": 7,
+        "validation_normalized_mae": 0.1125367283821106,
+        "loss": 0.054561187239254225,
+        "regression": 0.012024050414123955,
+        "corruption": 0.023113838314790938,
+        "quality": 0.7644359837560093,
+        "severity": 0.015296494259553798,
+        "coverage_penalty": 0.00024546991945124534
+      },
+      {
+        "epoch": 8,
+        "validation_normalized_mae": 0.10845375061035156,
+        "loss": 0.05392806779812364,
+        "regression": 0.011459685040309149,
+        "corruption": 0.01673920625163352,
+        "quality": 0.7784859450424418,
+        "severity": 0.013589754371958621,
+        "coverage_penalty": 0.0005271185464687947
+      }
+    ],
+    "n_parameters": 64763,
+    "selective_objective": true,
+    "architecture": "transformer",
+    "seed": 43,
+    "stage": "selective_adaptation",
+    "duration_s": 2.7264771461486816,
+    "train_cases": 2160
+  }
+]

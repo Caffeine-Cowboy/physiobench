@@ -1,0 +1,47 @@
+name: CPU reproducibility checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CUDA_VISIBLE_DEVICES: ""
+      OMP_NUM_THREADS: "2"
+      MKL_NUM_THREADS: "2"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+      - name: Install exact runtime and CPU PyTorch
+        run: |
+          python -m pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements-lock.txt
+          python -m pip install --no-deps -e .
+      - name: Restore pinned independent synthetic release artifacts
+        run: python scripts/restore_release_artifacts.py
+      - name: Test leakage, grouping, signal features and calibration
+        run: python -m pytest -q
+      - name: Verify all published evidence receipts
+        run: python scripts/verify_artifacts.py
+      - name: Execute bounded genuine training smoke study
+        run: |
+          python -m physiobench.experiments --config configs/experiment-smoke.json --output results/smoke-ci
+          python scripts/verify_artifacts.py --results results/smoke-ci
+      - name: Preserve smoke configuration, histories and receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-study-receipt
+          path: results/smoke-ci/
+          if-no-files-found: ignore

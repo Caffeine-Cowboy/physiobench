@@ -1,0 +1,836 @@
+{
+  "protocol": "exploratory-frozen-BIDMC-v1",
+  "dataset": "BIDMC PPG and Respiration Dataset v1.0.0",
+  "dataset_url": "https://physionet.org/content/bidmc/1.0.0/",
+  "dataset_doi": "10.13026/C2208R",
+  "dataset_attribution": "Pimentel et al.; PhysioNet BIDMC PPG and Respiration Dataset",
+  "dataset_license": "Open Data Commons Attribution License v1.0",
+  "provenance": {
+    "attempted_windows": 159,
+    "included_signal_windows": 159,
+    "included_recordings": 53,
+    "exclusion_counts": {},
+    "missing_rr_reference_windows": {
+      "rr_ann1": 2,
+      "rr_ann2": 1
+    },
+    "acquisition_sha256": "513fac27af8e75411bf0847860e73aaaadc7410cfbc5a868e4fcae52bd7fde6c",
+    "acquisition_files": 265,
+    "raw_data_distributed": false
+  },
+  "frozen_protocol_sha256": "a204cecc67c9e9425f491985be9cf4ff4ebba71332696a4bae6eba86d94eea06",
+  "source_code_sha256": "2c0b6ac16ea51d33946045e9e9051b558d9c3079a774b50adf7cdd84e6642a08",
+  "point_estimator": "equal-recording mean absolute error",
+  "bootstrap_unit": "source recording",
+  "bootstrap_draws": 2000,
+  "models": {
+    "signal_processing": {
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 7.129745433924716,
+          "ci95_low": 4.5684801005200395,
+          "ci95_high": 10.154730757105295,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.0070658916695436,
+          "ci95_low": 0.7555703925371652,
+          "ci95_high": 1.321788497360752,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.016503586716708,
+          "ci95_low": 0.7753434570428382,
+          "ci95_high": 1.3224332464142878,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-base-17": {
+      "checkpoint_sha256": "5d9cbb8d5e1ff3341abe82170ee67e83198287aae0d6d9f2a989dae7fa13b5c4",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 12.392788510672121,
+          "ci95_low": 10.986303213219943,
+          "ci95_high": 13.704838755869254,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.4949113447758628,
+          "ci95_low": 1.232575616143749,
+          "ci95_high": 1.80572067238135,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.5438155082219036,
+          "ci95_low": 1.2586385719536655,
+          "ci95_high": 1.8490152510603932,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-base-29": {
+      "checkpoint_sha256": "d82ec250bbce87fc1cd437796adf3d8c3658bfc1da03b79a84dec260546a247d",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 8.644531094045883,
+          "ci95_low": 7.524020453500246,
+          "ci95_high": 9.765803528274771,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 2.9660153560364426,
+          "ci95_low": 2.6448100600256588,
+          "ci95_high": 3.2963576015271463,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 2.8895426789099723,
+          "ci95_low": 2.5710266194077667,
+          "ci95_high": 3.2362510952877077,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-base-43": {
+      "checkpoint_sha256": "6b607fbf543da532daeb8cd22af2681ccf56f7b1c818c33fdae65c534556a2db",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 8.384913939261333,
+          "ci95_low": 7.23157978999561,
+          "ci95_high": 9.477374670391505,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.3975816609614355,
+          "ci95_low": 1.130946600578577,
+          "ci95_high": 1.6913451848117271,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.430149184988276,
+          "ci95_low": 1.1762891511908453,
+          "ci95_high": 1.7100878322640496,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-continued_base-17": {
+      "checkpoint_sha256": "81bedee4f985f1190db45e3da5de707fb818ca08d66abea04568cf7f4b6049d1",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 11.370934198238094,
+          "ci95_low": 9.912492223313931,
+          "ci95_high": 12.720628068821519,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.4175630262821373,
+          "ci95_low": 1.1565367824135062,
+          "ci95_high": 1.7184907170384638,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.4608769451263819,
+          "ci95_low": 1.186531097473704,
+          "ci95_high": 1.7596474209181345,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-continued_base-29": {
+      "checkpoint_sha256": "0db1c82b8aa3200a0f2b6d6f6ad6f1aca91152afc748c8317547d464586897db",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 7.5285193350412305,
+          "ci95_low": 6.4162617662338475,
+          "ci95_high": 8.770437197223046,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 2.815221836626496,
+          "ci95_low": 2.5018328824032925,
+          "ci95_high": 3.149337755788539,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 2.7509721436749164,
+          "ci95_low": 2.4402526728483407,
+          "ci95_high": 3.085037428666927,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-continued_base-43": {
+      "checkpoint_sha256": "07464b2919a7877dc3565dcd1898ed0acc8e92271c2637771b8825f7cbcb214b",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 6.800508608296769,
+          "ci95_low": 5.5672028333261405,
+          "ci95_high": 8.192419981761008,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.553081097492641,
+          "ci95_low": 1.2613274597306645,
+          "ci95_high": 1.8690894352316738,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.542374141395428,
+          "ci95_low": 1.2631236934278962,
+          "ci95_high": 1.8523417304422518,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-robust_adaptation-17": {
+      "checkpoint_sha256": "fd44376cacc5e8a757d5fee9250d15621d959c97bb597971bf88b83b642a7c10",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 10.325346297544963,
+          "ci95_low": 8.723700139675442,
+          "ci95_high": 11.848252892648938,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.6398116307517645,
+          "ci95_low": 1.347236666034126,
+          "ci95_high": 1.9696282057300858,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.6451243709089454,
+          "ci95_low": 1.3390038858340367,
+          "ci95_high": 1.9903223186754444,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-robust_adaptation-29": {
+      "checkpoint_sha256": "0d105c54a09ce5159cdba239686bd5a404e04cd00d7356ca139c0ee7e2ed567f",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 7.232857166338476,
+          "ci95_low": 6.159230761996155,
+          "ci95_high": 8.392393888686627,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 2.865047247742102,
+          "ci95_low": 2.5349512541766828,
+          "ci95_high": 3.197194462792493,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 2.8169110450552695,
+          "ci95_low": 2.500087705010318,
+          "ci95_high": 3.1287958196629995,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-robust_adaptation-43": {
+      "checkpoint_sha256": "60467fadb5625892d42fe6f0bc9a829684f5b3ddbaab03c49a412973a2ea8ca8",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 7.286580094992514,
+          "ci95_low": 6.157593625641045,
+          "ci95_high": 8.438115730817849,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.6673961196114822,
+          "ci95_low": 1.386815687466413,
+          "ci95_high": 1.9787729678991035,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.67434150656856,
+          "ci95_low": 1.4057591752289447,
+          "ci95_high": 1.9593131932571355,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-selective_adaptation-17": {
+      "checkpoint_sha256": "f5096760e70deb5a549353eb3273bd09457381f7901b42bb12fe61498771c468",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 10.731685515740082,
+          "ci95_low": 9.155095204243038,
+          "ci95_high": 12.244580637448152,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.4845453754903246,
+          "ci95_low": 1.2102044583500757,
+          "ci95_high": 1.8018240390643934,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.519250655864976,
+          "ci95_low": 1.2357038407774243,
+          "ci95_high": 1.8306390151673444,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-selective_adaptation-29": {
+      "checkpoint_sha256": "ec5d90411e8d7523bc07a97464999fd398ce6ffacc32908beccd495abc162b47",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 7.043570755946832,
+          "ci95_low": 6.016531278526053,
+          "ci95_high": 8.173916346328358,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 2.779409242425456,
+          "ci95_low": 2.448328699396834,
+          "ci95_high": 3.114278199739725,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 2.744036304070815,
+          "ci95_low": 2.4140785322185794,
+          "ci95_high": 3.070178198783799,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "cnn-selective_adaptation-43": {
+      "checkpoint_sha256": "13c55157138cc5c04212018eb0773cde380cafbed6a1877e2da19120cb5a5fdb",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 6.699009234150777,
+          "ci95_low": 5.614191570903934,
+          "ci95_high": 7.857825752338431,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.6320014338929696,
+          "ci95_low": 1.3545417422875667,
+          "ci95_high": 1.9398122015017938,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.6450883735296973,
+          "ci95_low": 1.3825391868849373,
+          "ci95_high": 1.9274185684879994,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-base-17": {
+      "checkpoint_sha256": "47d006e573cbfa690e900827b741261fa691523df1bd006100783c59e40ea77e",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 6.953729961710978,
+          "ci95_low": 5.770975507576938,
+          "ci95_high": 8.297109061532003,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.6796451013758542,
+          "ci95_low": 1.3657260286797452,
+          "ci95_high": 2.0105942166645914,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.738728058633618,
+          "ci95_low": 1.4500225792195167,
+          "ci95_high": 2.04728829789239,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-base-29": {
+      "checkpoint_sha256": "b25f6d7f0cbe0b2c6a89f8fe7b4350dd32c4e6eb9840ca3fef0ed869db28dc27",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 6.991908077126118,
+          "ci95_low": 5.89456561821021,
+          "ci95_high": 8.13326189397846,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 2.294223251463884,
+          "ci95_low": 1.9745224156965169,
+          "ci95_high": 2.640359852245865,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 2.279349981840587,
+          "ci95_low": 1.9803838636194206,
+          "ci95_high": 2.591728473152262,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-base-43": {
+      "checkpoint_sha256": "9bcb5335d73a07027a60cbb404957253ded2df5c6542423958795ccd10e58e0b",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 9.092698246391842,
+          "ci95_low": 7.501796333177047,
+          "ci95_high": 10.958499829491409,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.391398453519118,
+          "ci95_low": 1.1158175092790643,
+          "ci95_high": 1.6993989715070286,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.4494779229858712,
+          "ci95_low": 1.2011349729721539,
+          "ci95_high": 1.7332422980573934,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-continued_base-17": {
+      "checkpoint_sha256": "28808720f95179d3f21c74f56692b1a674c7973a899e3075f5765c14a46adb10",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 7.5418524337866995,
+          "ci95_low": 6.3445903629490426,
+          "ci95_high": 8.85052918075134,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.4325531115987618,
+          "ci95_low": 1.143586741341624,
+          "ci95_high": 1.750490459293376,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.5269282081614062,
+          "ci95_low": 1.2565669715017087,
+          "ci95_high": 1.8236727942951876,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-continued_base-29": {
+      "checkpoint_sha256": "2e2473fccee6185eb996466cba7b0d616b24e6b750b2a714715fe69094672208",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 6.065419129504124,
+          "ci95_low": 5.056964206101102,
+          "ci95_high": 7.170685099452249,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 2.2210554522422807,
+          "ci95_low": 1.9098817223371252,
+          "ci95_high": 2.5580237894636095,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 2.213794152810109,
+          "ci95_low": 1.9249038246395433,
+          "ci95_high": 2.5187932128642845,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-continued_base-43": {
+      "checkpoint_sha256": "41ee93f95c58476c42206a0de3c74b2bbfde4c9322efb58e874e0e97b35e1f95",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 8.579678684618406,
+          "ci95_low": 7.015570146077806,
+          "ci95_high": 10.386948280744253,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.526162305274779,
+          "ci95_low": 1.2416982936899235,
+          "ci95_high": 1.8458046983916006,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.5701183550836748,
+          "ci95_low": 1.3075889266853176,
+          "ci95_high": 1.851681436718199,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-robust_adaptation-17": {
+      "checkpoint_sha256": "70d667ebf610348fc13b8206c45c7cd338fc432cfedad090c64b609cb3f4e135",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 7.549724109623127,
+          "ci95_low": 6.052317144169761,
+          "ci95_high": 9.166269081824396,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.977378045595519,
+          "ci95_low": 1.6670828409856697,
+          "ci95_high": 2.3192132522740985,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.9936231008708067,
+          "ci95_low": 1.6910742166586594,
+          "ci95_high": 2.3117546825836564,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-robust_adaptation-29": {
+      "checkpoint_sha256": "15028b8d7697ebb30014eaf5ecd5506a3a8eb8be01bdf49157c5af6c70dc0d5c",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 5.770376850321165,
+          "ci95_low": 4.622879879063659,
+          "ci95_high": 7.058373421987211,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.761422472068634,
+          "ci95_low": 1.4788814285460836,
+          "ci95_high": 2.078655191946941,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.7754592020749662,
+          "ci95_low": 1.4835126610144496,
+          "ci95_high": 2.083406477403482,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-robust_adaptation-43": {
+      "checkpoint_sha256": "2cd4c8c297a0e9aca959307b555baf25e575076a245798ec3a081acba1ab5986",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 7.0021420006903,
+          "ci95_low": 5.727047958475717,
+          "ci95_high": 8.53140534238787,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.617031439565731,
+          "ci95_low": 1.3234941998608534,
+          "ci95_high": 1.9441976826720955,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.6640534880559597,
+          "ci95_low": 1.3839891820096137,
+          "ci95_high": 1.954562595048765,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-selective_adaptation-17": {
+      "checkpoint_sha256": "56e3963beba87a84dba45939db8c12a0b55af887f4caccddd7102e31332ff5f6",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 7.5357067479386,
+          "ci95_low": 6.033590321820869,
+          "ci95_high": 9.117919104684827,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.8528812246165043,
+          "ci95_low": 1.5445640968914025,
+          "ci95_high": 2.191743588421345,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.8779270060017434,
+          "ci95_low": 1.58391747811084,
+          "ci95_high": 2.191807749348666,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-selective_adaptation-29": {
+      "checkpoint_sha256": "357acea5b789c5bbe909f4b6aa1a60d22b32998fef5002c74beeb2b809c5b5b9",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 5.359033668650859,
+          "ci95_low": 4.362862338180676,
+          "ci95_high": 6.5831730104708415,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.9048454405954443,
+          "ci95_low": 1.606847040308394,
+          "ci95_high": 2.2401987049008856,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.9074585358115153,
+          "ci95_low": 1.6122272549578291,
+          "ci95_high": 2.224078138494146,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    },
+    "transformer-selective_adaptation-43": {
+      "checkpoint_sha256": "051cd7ce8e7658ddea38c4bbe85ee2470eb590689db2d3b80a92ec58620d0947",
+      "mae": {
+        "hr_monitor": {
+          "eligible_windows": 159,
+          "units": "beats/minute",
+          "estimate": 7.325779807774805,
+          "ci95_low": 6.038999621294597,
+          "ci95_high": 8.843379252785864,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann1": {
+          "eligible_windows": 157,
+          "units": "breaths/minute",
+          "estimate": 1.7632091639147975,
+          "ci95_low": 1.472387492262256,
+          "ci95_high": 2.0902458427058,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        },
+        "rr_ann2": {
+          "eligible_windows": 158,
+          "units": "breaths/minute",
+          "estimate": 1.792634896643315,
+          "ci95_low": 1.5100158085566087,
+          "ci95_high": 2.091848674018443,
+          "n_subjects": 53,
+          "n_bootstrap": 2000
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Exploratory domain-shift check; no clinical efficacy or diagnostic claim",
+    "HR reference is monitor-derived; RR references are separate manual annotators",
+    "Three prespecified windows per recording; temporal stationarity and ICU selection limit transportability",
+    "No external fitting, model selection, threshold tuning or recalibration",
+    "Natural corruption lacks ground-truth annotation; detector metrics not reported",
+    "Recordings are bootstrap clusters; independent patient identity cannot be established from released records",
+    "Pointwise intervals are not adjusted for multiple models or outcomes"
+  ]
+}

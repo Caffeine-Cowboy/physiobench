@@ -1,0 +1,40 @@
+{
+  "dataset": {
+    "n_subjects": 180,
+    "windows_per_subject": 6,
+    "duration_s": 20.0,
+    "fs": 50.0,
+    "seed": 20261010
+  },
+  "split_seed": 20261010,
+  "calibration_split_seed": 20261012,
+  "stress_seed": 20261011,
+  "architectures": [
+    "cnn",
+    "transformer"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "training": {
+    "epochs": 24,
+    "batch_size": 64,
+    "learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "corruption_weight": 0.15,
+    "quality_weight": 0.05,
+    "severity_weight": 0.05,
+    "target_coverage": 0.8,
+    "coverage_penalty": 8.0,
+    "gradient_clip": 2.0,
+    "cpu_threads": 2
+  },
+  "posttraining": {
+    "epochs": 8,
+    "learning_rate": 0.0005
+  },
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261013
+}

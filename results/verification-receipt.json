@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "verification_date": "2026-10-10",
+  "full_test_suite": {
+    "passed": 44,
+    "failed": 0,
+    "command": "python -m pytest -q"
+  },
+  "training_study": {
+    "completed_fits": 24,
+    "per_run_evaluations": 432,
+    "seeds": [
+      17,
+      29,
+      43
+    ]
+  },
+  "same_platform_current_source_reproduction": {
+    "completed_fits": 24,
+    "prediction_files": 432,
+    "checkpoint_state_dicts": 24,
+    "prediction_arrays_bitwise_equal": true,
+    "model_tensors_bitwise_equal": true,
+    "metrics_and_bootstraps_equal": true,
+    "receipt": "neural-study/source_reproduction.json"
+  },
+  "smoke_study": {
+    "completed_fits": 4,
+    "duration_s": 0.7613070011138916,
+    "artifact_hashes_verified": 81,
+    "configuration": "configs/experiment-smoke.json"
+  },
+  "published_evidence_integrity": {
+    "status": "passed",
+    "verified_hashes": 560,
+    "manifests": 2,
+    "external_protocols": 1,
+    "errors": [],
+    "incidental_source_snapshot_drift": [
+      {
+        "receipt": "results/neural-study/manifest.json",
+        "source": "baseline_experiment.py",
+        "reason": "Incidental module snapshot; outside this executed pipeline"
+      },
+      {
+        "receipt": "results/neural-study/manifest.json",
+        "source": "external_validation.py",
+        "reason": "Incidental module snapshot; outside this executed pipeline"
+      }
+    ],
+    "historical_sources_with_numeric_reproduction": [
+      {
+        "source": "experiments.py",
+        "receipt": "results/neural-study/source_reproduction.json",
+        "historical_hash": "439333b87d273caa110e58fbcb19153867721efdf085beff9e98182414a39c6f",
+        "current_hash": "a4f3a8ea0e6b2bbb6852f340ee4aa0c1e6b3e2a52098e564bcd56d23b33a28c9",
+        "verification": "exact historical bytes plus current-source bitwise numerical reproduction"
+      }
+    ],
+    "scope": "tracked model/result files and executed-source hashes; public raw files are downloaded separately"
+  },
+  "dependency_versions_checked": {
+    "runtime_and_test_pins": 20,
+    "external_dependency_pins": 32,
+    "reference_environment": "clean independently created public reproduction environment"
+  },
+  "github_ci": {
+    "status": "prepared",
+    "remote_execution": "not yet executed",
+    "workflow": ".github/workflows/ci.yml"
+  },
+  "source_and_tool_sha256": {
+    "src/physiobench/__init__.py": "b7112a31591b27ff3a63bc675308de54b22cb3eff4e5ce1d39f5da59530b2c38",
+    "src/physiobench/baseline_experiment.py": "26a7e4f8e236753c8b538688d25d1801f62d84e754afa1438e28afd5a944f618",
+    "src/physiobench/baselines.py": "7259baee0f8b52a53a4e96f9545604241f9f30e52604093835062a4f521dc3bb",
+    "src/physiobench/data.py": "d1a94cb0d2dde5f160604e7b0f0beb2a0fe6836b5736052da51774459abf518d",
+    "src/physiobench/experiments.py": "a4f3a8ea0e6b2bbb6852f340ee4aa0c1e6b3e2a52098e564bcd56d23b33a28c9",
+    "src/physiobench/external_validation.py": "85457da957010a7aab7803aa64e6d6b460954cd5b709a65ede6fd3c5e13ddae2",
+    "src/physiobench/metrics.py": "851e28df554d07c24b62e79d29ef05137992e63969c6a34d1e815b3f0fd882bc",
+    "src/physiobench/posttraining.py": "a5d70ccff581e6259dfdada97b75236facdba7ab91a9b3bcc07c68e23646af9b",
+    "src/physiobench/simulator.py": "0de6d3f3b655e3e4abbbd89dc99078e55cafb2b0e70af9d05d7ee0d6bf546442",
+    "src/physiobench/training.py": "dea0b604af377b26c9afa11c98741c01128cb521b2015dcbcba7df643d278725",
+    "tests/test_baseline_reporting.py": "3f084ef4c4886440f481a5f1b780fde43b53d9b51eddb3f61663fae634417d84",
+    "tests/test_core.py": "df1ffca6e32aee842c3dfc078c2fd81709aa1f881f895a726c5c616985d3750c",
+    "tests/test_external_validation.py": "e4750aa9eef46f9aa32d7290f8cbf55dd9a7899fb7bce9e01e7668b53fc58c5f",
+    "tests/test_integrity_receipts.py": "087ad7f1c06a9424a1748735619d3c5df335181457d6cbf01f18a27d2d764772",
+    "tests/test_training.py": "d0873aa03aaa66b97d70ba7217be29a4ddccddf78942663075483b7b3ab1bfe0",
+    "scripts/compare_reproduction.py": "e65836eed1b2cac31bfe58246e5a2cc33f3b0e467f1e9baac0df004314fb0429",
+    "scripts/verify_artifacts.py": "89c59d7b68b8a54ec236a09517ab39cdbb4ab1b54323e3a022cb4624cb9d3290"
+  },
+  "dependency_lock_sha256": {
+    "requirements-lock.txt": "e573b903cea8a74556f0bfd7d36c09801e1e2d5494444fe9cc55f2fb574c6f4d",
+    "requirements-external-lock.txt": "ccd6f54b33883d5d9f6993a052d2007c0e2d354b324e9acfd1b9eb5751f7f885"
+  }
+}

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "physiobench"
+version = "0.1.0"
+description = "Reproducible synthetic multimodal physiology robustness benchmark"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2", "scikit-learn>=1.4,<2", "torch>=2.2,<3"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+external = ["wfdb==4.3.1"]
+
+[project.scripts]
+physiobench-data = "physiobench.data:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

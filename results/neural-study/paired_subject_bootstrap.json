@@ -1,0 +1,3458 @@
+[
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 1.6457626819610596,
+    "ci95": [
+      1.2859386652708054,
+      1.994114676117897
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.10734286904335022,
+    "ci95": [
+      0.07593437302857638,
+      0.1390994608402252
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.2063983529806137,
+    "ci95": [
+      -0.3369207367300987,
+      -0.0722781529650093
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": 0.016802065074443817,
+    "ci95": [
+      0.001903726998716593,
+      0.032196461595594875
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": 1.1240224838256836,
+    "ci95": [
+      0.8450289562344551,
+      1.413825127482414
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.052427977323532104,
+    "ci95": [
+      0.006110877636820078,
+      0.09534369390457866
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -1.811909556388855,
+    "ci95": [
+      -2.609929156303406,
+      -1.056246715784073
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.2917671799659729,
+    "ci95": [
+      -0.354278776794672,
+      -0.2254489760845901
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.26597872376441956,
+    "ci95": [
+      -0.3710412673652172,
+      -0.15779087729752067
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.012452293187379837,
+    "ci95": [
+      -0.025905365776270627,
+      5.361515432012355e-05
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -2.146249294281006,
+    "ci95": [
+      -2.8658379554748534,
+      -1.4101199030876161
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.26601701974868774,
+    "ci95": [
+      -0.3342644087970257,
+      -0.20279208011925223
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.5028949975967407,
+    "ci95": [
+      0.09490723572671414,
+      0.9136351466178886
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.0730186328291893,
+    "ci95": [
+      0.0408625922165811,
+      0.10473250597715376
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.44613415002822876,
+    "ci95": [
+      0.2676693186163902,
+      0.6134024456143373
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": 0.0008792434236966074,
+    "ci95": [
+      -0.006112390710040927,
+      0.008205359824933109
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.6133227944374084,
+    "ci95": [
+      0.0661472337320447,
+      1.1385112553834915
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.03700227662920952,
+    "ci95": [
+      0.001407943299273029,
+      0.07182691264897584
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.15089386701583862,
+    "ci95": [
+      -0.276314827054739,
+      0.5866876825690269
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.03138338029384613,
+    "ci95": [
+      -0.05599733768031001,
+      -0.00521794152446092
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.1553756296634674,
+    "ci95": [
+      -0.3280900940299034,
+      0.022751944605261035
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.006410676054656506,
+    "ci95": [
+      -0.016736181871965527,
+      0.006188417749945074
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.14974339306354523,
+    "ci95": [
+      -0.5724539741873741,
+      0.2777886286377903
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.11437937617301941,
+    "ci95": [
+      -0.1458160500973463,
+      -0.08001600019633771
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -5.330612659454346,
+    "ci95": [
+      -6.326849710941315,
+      -4.355204164981843
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.2824188470840454,
+    "ci95": [
+      -0.352161019295454,
+      -0.2200815740972758
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.01708737388253212,
+    "ci95": [
+      -0.16100002452731133,
+      0.19051703214645369
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": 0.00046031089732423425,
+    "ci95": [
+      -0.009531709179282187,
+      0.009163141297176469
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -5.280948162078857,
+    "ci95": [
+      -6.191143894195557,
+      -4.416190624237061
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.32725954055786133,
+    "ci95": [
+      -0.3998644284904003,
+      -0.2518838331103325
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -1.0792723894119263,
+    "ci95": [
+      -1.6230662554502486,
+      -0.5196295082569123
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.6112909317016602,
+    "ci95": [
+      -0.6683383658528328,
+      -0.5542043939232827
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.1356084942817688,
+    "ci95": [
+      -0.1868369199335575,
+      -0.084922344237566
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.028848055750131607,
+    "ci95": [
+      -0.036851503606885674,
+      -0.020488683134317398
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -2.3183226585388184,
+    "ci95": [
+      -2.847230690717697,
+      -1.7650003492832185
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.6158139705657959,
+    "ci95": [
+      -0.6778951287269592,
+      -0.554830139875412
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -4.95945930480957,
+    "ci95": [
+      -5.761912369728089,
+      -4.126136302947998
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.30949515104293823,
+    "ci95": [
+      -0.35128950104117396,
+      -0.26627611368894577
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.29898732900619507,
+    "ci95": [
+      -0.4889823369681835,
+      -0.12638852410018492
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.020198754966259003,
+    "ci95": [
+      -0.027349957963451743,
+      -0.013458320195786666
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -4.737898826599121,
+    "ci95": [
+      -5.65872038602829,
+      -3.7741423368453986
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.25013911724090576,
+    "ci95": [
+      -0.2929169021546841,
+      -0.20784722641110426
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 1.3983038663864136,
+    "ci95": [
+      0.9354321926832199,
+      1.851277777552604
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.08211053162813187,
+    "ci95": [
+      -0.13024604357779027,
+      -0.03881940627470613
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.2959950864315033,
+    "ci95": [
+      -0.3633369021117687,
+      -0.2291789196431637
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.0032898234203457832,
+    "ci95": [
+      -0.01825318867340684,
+      0.011235787882469593
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": 1.2663089036941528,
+    "ci95": [
+      0.9168848410248757,
+      1.6295831888914107
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.08482936024665833,
+    "ci95": [
+      -0.14129605516791344,
+      -0.03407398527488113
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.5898208618164062,
+    "ci95": [
+      -0.014837543852627276,
+      1.1670466393232335
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.18032023310661316,
+    "ci95": [
+      0.09573656115680933,
+      0.25657660737633703
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.7279751300811768,
+    "ci95": [
+      -0.9766291409730912,
+      -0.4710497856140141
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.048278436064720154,
+    "ci95": [
+      -0.08209031950682402,
+      -0.016561415046453486
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -2.2002148628234863,
+    "ci95": [
+      -2.617524576187134,
+      -1.780872392654419
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.013950344175100327,
+    "ci95": [
+      -0.10834343433380127,
+      0.06806952245533465
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 1.670059323310852,
+    "ci95": [
+      0.4406310483813286,
+      2.910795325040817
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.23433071374893188,
+    "ci95": [
+      0.17217167504131795,
+      0.2997482635080814
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.6004173755645752,
+    "ci95": [
+      -0.76861542314291,
+      -0.41416204124689104
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.03296734765172005,
+    "ci95": [
+      -0.06683154478669166,
+      0.005488925683312112
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": 1.2474756240844727,
+    "ci95": [
+      0.2673648111522198,
+      2.2460902929306026
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.26262739300727844,
+    "ci95": [
+      0.19199809543788432,
+      0.32788081094622606
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -1.1794698238372803,
+    "ci95": [
+      -2.5321125984191895,
+      0.12411686647683204
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.4960576295852661,
+    "ci95": [
+      -0.5886241480708122,
+      -0.40390858426690107
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.34937143325805664,
+    "ci95": [
+      -0.48955119848251344,
+      -0.21843844614923003
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.0653696283698082,
+    "ci95": [
+      -0.08488418832421303,
+      -0.04404332954436543
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -1.5526790618896484,
+    "ci95": [
+      -2.701234883069992,
+      -0.37602795064449357
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.4858897030353546,
+    "ci95": [
+      -0.5761093810200691,
+      -0.39049529582262055
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.016385594382882118,
+    "ci95": [
+      -0.7614558503031731,
+      0.7161674216389656
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.049575917422771454,
+    "ci95": [
+      0.01979566430673003,
+      0.07871555611491202
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.051427822560071945,
+    "ci95": [
+      -0.3197164013981819,
+      0.22352184616029253
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.028423599898815155,
+    "ci95": [
+      -0.04186046086251736,
+      -0.01552970970515162
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.3628714084625244,
+    "ci95": [
+      -1.1001829653978348,
+      0.3687982439994812
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.015001578256487846,
+    "ci95": [
+      -0.057197345048189165,
+      0.024951592274010167
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.8496348261833191,
+    "ci95": [
+      -1.7892810583114624,
+      0.03496657833456898
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.10628530383110046,
+    "ci95": [
+      0.032337636500597,
+      0.1869446095079183
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.15584777295589447,
+    "ci95": [
+      -0.3460742600262165,
+      0.028955015679821124
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.031443774700164795,
+    "ci95": [
+      -0.04914423832669854,
+      -0.013911481969989852
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.7479641437530518,
+    "ci95": [
+      -1.4580937027931213,
+      -0.032157786190510115
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.10893774777650833,
+    "ci95": [
+      0.03158737123012543,
+      0.1898163795471191
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -4.964208602905273,
+    "ci95": [
+      -6.3907998919487,
+      -3.413939827680588
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.2428363412618637,
+    "ci95": [
+      -0.4297905437648296,
+      -0.10153151899576195
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.1996229588985443,
+    "ci95": [
+      -0.38320444002747533,
+      -0.02206426751799887
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.03236166760325432,
+    "ci95": [
+      -0.049849632382392886,
+      -0.015078159747645264
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -5.027097702026367,
+    "ci95": [
+      -6.259021186828614,
+      -3.582203477621079
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.26548054814338684,
+    "ci95": [
+      -0.4309029057621956,
+      -0.12358683738857511
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.6086852550506592,
+    "ci95": [
+      -0.36621418595314026,
+      1.612273374199866
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.6358141899108887,
+    "ci95": [
+      -0.6863340258598327,
+      -0.5832513034343719
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.2387525737285614,
+    "ci95": [
+      -0.34307814911007883,
+      -0.11173045579344046
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.0728876069188118,
+    "ci95": [
+      -0.09490752294659614,
+      -0.048867338150739674
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.5619478225708008,
+    "ci95": [
+      -1.2545916259288787,
+      0.19822283796966073
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.6617506146430969,
+    "ci95": [
+      -0.7183195352554321,
+      -0.6054585948586464
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -6.291514873504639,
+    "ci95": [
+      -7.346040606498718,
+      -5.19500972032547
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.499323308467865,
+    "ci95": [
+      -0.5507268071174621,
+      -0.44828144162893296
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.4758681058883667,
+    "ci95": [
+      -0.6509157046675682,
+      -0.3021818771958351
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.04811950400471687,
+    "ci95": [
+      -0.05814603129401803,
+      -0.03796152211725712
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -5.990970611572266,
+    "ci95": [
+      -7.043870460987091,
+      -4.919980216026307
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.37985122203826904,
+    "ci95": [
+      -0.4304308108985424,
+      -0.33237618431448934
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.2589871883392334,
+    "ci95": [
+      -1.4105753391981124,
+      0.9623524755239486
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.5018837451934814,
+    "ci95": [
+      -0.6202402785420418,
+      -0.3954443402588368
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.2281358242034912,
+    "ci95": [
+      -0.3471331804990768,
+      -0.1160292381420732
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.05602999031543732,
+    "ci95": [
+      -0.08179475497454405,
+      -0.02823062804527581
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.056422557681798935,
+    "ci95": [
+      -0.8966872438788414,
+      1.1363189667463296
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.507361114025116,
+    "ci95": [
+      -0.612202550470829,
+      -0.3957900017499924
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 3.5046989917755127,
+    "ci95": [
+      2.554056483507156,
+      4.498635387420654
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.23110005259513855,
+    "ci95": [
+      0.1315837051719427,
+      0.3255965426564215
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -1.0359880924224854,
+    "ci95": [
+      -1.2079383701086044,
+      -0.8647834420204163
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.04307236522436142,
+    "ci95": [
+      -0.08386588152498006,
+      -0.00035291190870342866
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.680181622505188,
+    "ci95": [
+      -1.491228848695755,
+      0.09102641530334901
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "cnn",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.08592574298381805,
+    "ci95": [
+      -0.027387365698814392,
+      0.19642582014203067
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 1.166418194770813,
+    "ci95": [
+      0.8845889255404472,
+      1.430261567234993
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.10214760899543762,
+    "ci95": [
+      0.06045149173587561,
+      0.14340661056339737
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.05485470965504646,
+    "ci95": [
+      -0.2211837012320757,
+      0.11032461766153571
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": 0.0003170594573020935,
+    "ci95": [
+      -0.03034257940016687,
+      0.03310875762253999
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.7578322887420654,
+    "ci95": [
+      0.5484390988945961,
+      0.9573270976543425
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.02914516068994999,
+    "ci95": [
+      -0.012269146088510752,
+      0.06925596501678226
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -1.9564893245697021,
+    "ci95": [
+      -2.5956350743770598,
+      -1.2593347936868673
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.3157254755496979,
+    "ci95": [
+      -0.383799859136343,
+      -0.24926520511507994
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.2075948864221573,
+    "ci95": [
+      -0.00863972229417413,
+      0.4145813800394535
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": 0.01801101490855217,
+    "ci95": [
+      -0.007044740195851773,
+      0.0420871270820498
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -1.7733097076416016,
+    "ci95": [
+      -2.594582062959671,
+      -0.9826240852475168
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.38450944423675537,
+    "ci95": [
+      -0.47292357459664347,
+      -0.29858974143862727
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.8322706818580627,
+    "ci95": [
+      0.4930665746331215,
+      1.1964880347251892
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.06778088212013245,
+    "ci95": [
+      0.04122241642326117,
+      0.09335264284163713
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.2083125114440918,
+    "ci95": [
+      0.02625059769488871,
+      0.38620388731360433
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.0525369718670845,
+    "ci95": [
+      -0.06936133354902267,
+      -0.03675434421747924
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.40646398067474365,
+    "ci95": [
+      -0.014904912281781429,
+      0.8208504199981689
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.021960072219371796,
+    "ci95": [
+      -0.055255471356213094,
+      0.009826065716333678
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.5757588148117065,
+    "ci95": [
+      0.14901069402694703,
+      1.0401255011558532
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.00864371843636036,
+    "ci95": [
+      -0.018713438883423805,
+      0.034099666122347105
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.1887911558151245,
+    "ci95": [
+      -0.3328229233622551,
+      -0.0443524369969966
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.003980701323598623,
+    "ci95": [
+      -0.018623475125059484,
+      0.010438533010892566
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.022741416469216347,
+    "ci95": [
+      -0.3814039595425129,
+      0.434323765337467
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.03148557245731354,
+    "ci95": [
+      -0.06484280601143837,
+      0.0014858008711598606
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -5.893268585205078,
+    "ci95": [
+      -6.593251276016235,
+      -5.19650936126709
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.194099560379982,
+    "ci95": [
+      -0.2611960209906101,
+      -0.12341324463486679
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.41079628467559814,
+    "ci95": [
+      0.3042617402970791,
+      0.51643405854702
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": 0.001987953670322895,
+    "ci95": [
+      -0.015153788891620935,
+      0.018065198557451364
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -4.975643157958984,
+    "ci95": [
+      -5.5363005757331845,
+      -4.370115816593171
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.27127230167388916,
+    "ci95": [
+      -0.3296040013432503,
+      -0.2115219566971064
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -2.6667592525482178,
+    "ci95": [
+      -3.243435722589493,
+      -2.030478781461716
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.5334101319313049,
+    "ci95": [
+      -0.5947102755308151,
+      -0.46766649410128597
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.4606282413005829,
+    "ci95": [
+      0.17909841202199459,
+      0.7373202934861183
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": 0.014071198180317879,
+    "ci95": [
+      -0.004679259960539639,
+      0.03383271927013993
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -2.019848585128784,
+    "ci95": [
+      -2.5250582456588746,
+      -1.509270200133324
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.6346358060836792,
+    "ci95": [
+      -0.7374993562698364,
+      -0.5235152870416642
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -4.244324684143066,
+    "ci95": [
+      -4.981671285629273,
+      -3.516082537174225
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.33612948656082153,
+    "ci95": [
+      -0.39112234190106393,
+      -0.2759153902530672
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.2688022255897522,
+    "ci95": [
+      0.11166017316281796,
+      0.4389876313507557
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.01939467340707779,
+    "ci95": [
+      -0.033779010735452177,
+      -0.004961878678295765
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -4.212715148925781,
+    "ci95": [
+      -5.406045436859131,
+      -3.021869194507599
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.5372006893157959,
+    "ci95": [
+      -0.5922460913658142,
+      -0.47523937076330186
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.7447147369384766,
+    "ci95": [
+      0.46385428309440613,
+      1.0491338700056074
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.10953421890735626,
+    "ci95": [
+      -0.15990166068077089,
+      -0.060453692730516234
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.22496397793293,
+    "ci95": [
+      -0.422041055560112,
+      -0.027633844316005834
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": 0.027432881295681,
+    "ci95": [
+      -0.00871585626155138,
+      0.06030075028538698
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.4875708222389221,
+    "ci95": [
+      0.25232280120253564,
+      0.7190231963992116
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.07145582884550095,
+    "ci95": [
+      -0.13389723859727382,
+      -0.011064975033514205
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.4665098190307617,
+    "ci95": [
+      -1.0042859733104705,
+      0.07360512334853396
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.01855095662176609,
+    "ci95": [
+      -0.06645355224609376,
+      0.10146127250045528
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.3413761854171753,
+    "ci95": [
+      0.2461711958050728,
+      0.42213446348905553
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": 0.035592421889305115,
+    "ci95": [
+      0.017412553960457443,
+      0.05614476837217806
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.16098369657993317,
+    "ci95": [
+      -0.6412430837750435,
+      0.369784569740295
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_id",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.06090858206152916,
+    "ci95": [
+      -0.11447037942707539,
+      -0.010229370975866927
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.2727748453617096,
+    "ci95": [
+      -0.1815649751573801,
+      0.7040999352931976
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.3871135115623474,
+    "ci95": [
+      0.3003592059016228,
+      0.47749590575695033
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.02067691832780838,
+    "ci95": [
+      -0.279400697350502,
+      0.3051917627453801
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.025518815964460373,
+    "ci95": [
+      -0.08014610167592764,
+      0.028597195539623494
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.058616988360881805,
+    "ci95": [
+      -0.5081809684634209,
+      0.3845440812408919
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "clean",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.26221245527267456,
+    "ci95": [
+      0.19156933352351188,
+      0.33644348755478853
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -2.5397098064422607,
+    "ci95": [
+      -3.3973459720611574,
+      -1.687598592042924
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.46619972586631775,
+    "ci95": [
+      -0.5689745202660561,
+      -0.36136801019310955
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.38113778829574585,
+    "ci95": [
+      0.12274338528513909,
+      0.653186921775341
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.04294736310839653,
+    "ci95": [
+      -0.06726767867803574,
+      -0.019198369001969712
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -2.191497802734375,
+    "ci95": [
+      -3.292576068639755,
+      -1.1936520367860817
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "missing_modality",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.6863318681716919,
+    "ci95": [
+      -0.7974312409758568,
+      -0.5705736711621285
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.21661828458309174,
+    "ci95": [
+      -0.6858681201934814,
+      0.2482491329312322
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.12937605381011963,
+    "ci95": [
+      0.0948028288781643,
+      0.16312550231814382
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.4565123915672302,
+    "ci95": [
+      0.17839542925357818,
+      0.7324472904205321
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.1129804328083992,
+    "ci95": [
+      -0.13796011433005334,
+      -0.08679741658270361
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.13544707000255585,
+    "ci95": [
+      -0.6336305111646652,
+      0.9224831640720359
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "motion_artifact",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.023080792278051376,
+    "ci95": [
+      -0.05916801076382398,
+      0.013519018515944467
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -1.0596585273742676,
+    "ci95": [
+      -1.5825162202119827,
+      -0.5364770427346232
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.31888145208358765,
+    "ci95": [
+      0.22810314707458018,
+      0.4102593258023262
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.17361712455749512,
+    "ci95": [
+      -0.333552435785532,
+      0.0024567658489103045
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.026855599135160446,
+    "ci95": [
+      -0.04851243318989873,
+      -0.004839205311145658
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -1.6608226299285889,
+    "ci95": [
+      -2.225450176000595,
+      -1.1052977234125139
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "temporal_offset",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.19129930436611176,
+    "ci95": [
+      0.09523264635354281,
+      0.2848925083875656
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -6.216592788696289,
+    "ci95": [
+      -7.079166185855866,
+      -5.299574911594391
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.24388419091701508,
+    "ci95": [
+      -0.4322367049753666,
+      -0.07779383733868636
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.44485676288604736,
+    "ci95": [
+      0.2874096006155014,
+      0.5920068621635436
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.00025802903110161424,
+    "ci95": [
+      -0.023543573869392275,
+      0.0234982734080404
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -5.23946475982666,
+    "ci95": [
+      -5.97683151960373,
+      -4.44784654378891
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "contradiction",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.3575233221054077,
+    "ci95": [
+      -0.5642898842692375,
+      -0.18875223211944112
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -1.6490521430969238,
+    "ci95": [
+      -2.5120656311511995,
+      -0.7345307201147081
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.5805177688598633,
+    "ci95": [
+      -0.6739248603582382,
+      -0.47635869085788735
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.7641162276268005,
+    "ci95": [
+      0.3631899207830429,
+      1.1824409186840052
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.02435224875807762,
+    "ci95": [
+      -0.06355598587542773,
+      0.016609365958720326
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -0.49399980902671814,
+    "ci95": [
+      -1.0125546872615814,
+      0.027279794216155947
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ecg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.7649147510528564,
+    "ci95": [
+      -0.8614685818552971,
+      -0.6584057882428169
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -3.240208864212036,
+    "ci95": [
+      -3.863794928789139,
+      -2.539179337024689
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.47584766149520874,
+    "ci95": [
+      -0.5463515520095825,
+      -0.4111139245331288
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.42210862040519714,
+    "ci95": [
+      0.2219762448221445,
+      0.6207459598779677
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.014469408430159092,
+    "ci95": [
+      -0.03262081937864423,
+      0.0046760814148001355
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -2.865537643432617,
+    "ci95": [
+      -4.001943469047546,
+      -1.7358941167593007
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_ppg",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.7564343214035034,
+    "ci95": [
+      -0.8248999670147896,
+      -0.6857692331075669
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": -1.0494133234024048,
+    "ci95": [
+      -1.6593481123447418,
+      -0.45928174704313296
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.4314674735069275,
+    "ci95": [
+      -0.5678479999303818,
+      -0.31455351933836945
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": -0.38556674122810364,
+    "ci95": [
+      -0.6483058765530586,
+      -0.11765172258019457
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": -0.04445994645357132,
+    "ci95": [
+      -0.08176095560193061,
+      -0.003301705513149504
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": -1.7807551622390747,
+    "ci95": [
+      -2.2352407455444334,
+      -1.328579714894295
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_respiration",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": -0.5744857788085938,
+    "ci95": [
+      -0.7135161995887757,
+      -0.4379453040659429
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.46274518966674805,
+    "ci95": [
+      0.0182865952141583,
+      0.9224748834967609
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "robust_adaptation",
+    "control": "continued_base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.20527833700180054,
+    "ci95": [
+      0.08638156689703465,
+      0.317751171439886
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "hr_mae_bpm",
+    "delta": 0.34891074895858765,
+    "ci95": [
+      0.22117294780910016,
+      0.46941912174224854
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "robust_adaptation",
+    "metric": "rr_mae_bpm",
+    "delta": 0.1353958398103714,
+    "ci95": [
+      0.10765089448541403,
+      0.16214752160012721
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "hr_mae_bpm",
+    "delta": 0.6462587714195251,
+    "ci95": [
+      0.29093514010310173,
+      1.0035645574331282
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  },
+  {
+    "architecture": "transformer",
+    "split": "test_ood",
+    "condition": "drop_motion",
+    "treatment": "selective_adaptation",
+    "control": "base",
+    "metric": "rr_mae_bpm",
+    "delta": 0.28197526931762695,
+    "ci95": [
+      0.1931303024291992,
+      0.3669340930879116
+    ],
+    "n_subjects": 36,
+    "bootstrap_draws": 2000,
+    "interpretation": "negative delta favors treatment; pointwise, not multiplicity-adjusted"
+  }
+]

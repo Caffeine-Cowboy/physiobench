@@ -1,0 +1,46 @@
+{
+  "status": "completed",
+  "comparison": "bitwise numerical reproduction on recorded machine",
+  "n_prediction_files": 432,
+  "n_checkpoint_state_dicts": 24,
+  "all_prediction_arrays_bitwise_equal": true,
+  "all_model_tensors_bitwise_equal": true,
+  "all_metrics_and_bootstraps_equal": true,
+  "original_source_sha256": {
+    "__init__.py": "b7112a31591b27ff3a63bc675308de54b22cb3eff4e5ce1d39f5da59530b2c38",
+    "baseline_experiment.py": "8ea082c26398c4d225a9926c95d8ed1dca243a8513e31a1646c60db4232d52b7",
+    "baselines.py": "7259baee0f8b52a53a4e96f9545604241f9f30e52604093835062a4f521dc3bb",
+    "data.py": "d1a94cb0d2dde5f160604e7b0f0beb2a0fe6836b5736052da51774459abf518d",
+    "experiments.py": "439333b87d273caa110e58fbcb19153867721efdf085beff9e98182414a39c6f",
+    "external_validation.py": "5c5ed9ac24ca8ede4695523a13112af650b36626fa9bb1372cfe7ae05bb3d140",
+    "metrics.py": "851e28df554d07c24b62e79d29ef05137992e63969c6a34d1e815b3f0fd882bc",
+    "posttraining.py": "a5d70ccff581e6259dfdada97b75236facdba7ab91a9b3bcc07c68e23646af9b",
+    "simulator.py": "0de6d3f3b655e3e4abbbd89dc99078e55cafb2b0e70af9d05d7ee0d6bf546442",
+    "training.py": "dea0b604af377b26c9afa11c98741c01128cb521b2015dcbcba7df643d278725"
+  },
+  "current_source_sha256": {
+    "__init__.py": "b7112a31591b27ff3a63bc675308de54b22cb3eff4e5ce1d39f5da59530b2c38",
+    "baseline_experiment.py": "26a7e4f8e236753c8b538688d25d1801f62d84e754afa1438e28afd5a944f618",
+    "baselines.py": "7259baee0f8b52a53a4e96f9545604241f9f30e52604093835062a4f521dc3bb",
+    "data.py": "d1a94cb0d2dde5f160604e7b0f0beb2a0fe6836b5736052da51774459abf518d",
+    "experiments.py": "a4f3a8ea0e6b2bbb6852f340ee4aa0c1e6b3e2a52098e564bcd56d23b33a28c9",
+    "external_validation.py": "85457da957010a7aab7803aa64e6d6b460954cd5b709a65ede6fd3c5e13ddae2",
+    "metrics.py": "851e28df554d07c24b62e79d29ef05137992e63969c6a34d1e815b3f0fd882bc",
+    "posttraining.py": "a5d70ccff581e6259dfdada97b75236facdba7ab91a9b3bcc07c68e23646af9b",
+    "simulator.py": "0de6d3f3b655e3e4abbbd89dc99078e55cafb2b0e70af9d05d7ee0d6bf546442",
+    "training.py": "dea0b604af377b26c9afa11c98741c01128cb521b2015dcbcba7df643d278725"
+  },
+  "original_data_sha256": "77338d672558046e6be51b2b18e4f41ab80d8668ccbb7f96e89a6815fd2f52a8",
+  "reproduced_data_sha256": "77338d672558046e6be51b2b18e4f41ab80d8668ccbb7f96e89a6815fd2f52a8",
+  "original_duration_s": 68.0287868976593,
+  "reproduction_duration_s": 68.11030292510986,
+  "reproduction_manifest_sha256": "03b4a30c81b2e194ff9c5563a7cf980deaf0340782edfff9ac81955d93a7e85c",
+  "reproduction_source_revisions": {
+    "experiments.py": "Added initial status=running receipt before rerun; training,adaptation,calibration,prediction and bootstrap logic unchanged"
+  },
+  "historical_source_snapshots": {
+    "experiments.py": "source_snapshot/experiments.py"
+  },
+  "frozen_originals_preserved": true,
+  "scope": "Numeric equality on same hardware/software; no cross-platform claim"
+}

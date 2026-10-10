@@ -1,0 +1,12 @@
+{
+  "dataset": {"n_subjects": 30, "windows_per_subject": 6, "duration_s": 10.0, "fs": 50.0, "seed": 20261010},
+  "split_seed": 20261010,
+  "calibration_split_seed": 20261012,
+  "stress_seed": 20261011,
+  "architectures": ["cnn"],
+  "seeds": [17],
+  "training": {"epochs": 2, "batch_size": 64, "learning_rate": 0.002, "cpu_threads": 2},
+  "posttraining": {"epochs": 1, "learning_rate": 0.0005},
+  "bootstrap_draws": 100,
+  "bootstrap_seed": 20261013
+}

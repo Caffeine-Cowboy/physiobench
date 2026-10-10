@@ -1,0 +1,42 @@
+{
+  "protocol": "exploratory-frozen-BIDMC-v1",
+  "source_code_sha256": "2c0b6ac16ea51d33946045e9e9051b558d9c3079a774b50adf7cdd84e6642a08",
+  "checkpoint_sha256": {
+    "cnn-base-17": "5d9cbb8d5e1ff3341abe82170ee67e83198287aae0d6d9f2a989dae7fa13b5c4",
+    "cnn-base-29": "d82ec250bbce87fc1cd437796adf3d8c3658bfc1da03b79a84dec260546a247d",
+    "cnn-base-43": "6b607fbf543da532daeb8cd22af2681ccf56f7b1c818c33fdae65c534556a2db",
+    "cnn-continued_base-17": "81bedee4f985f1190db45e3da5de707fb818ca08d66abea04568cf7f4b6049d1",
+    "cnn-continued_base-29": "0db1c82b8aa3200a0f2b6d6f6ad6f1aca91152afc748c8317547d464586897db",
+    "cnn-continued_base-43": "07464b2919a7877dc3565dcd1898ed0acc8e92271c2637771b8825f7cbcb214b",
+    "cnn-robust_adaptation-17": "fd44376cacc5e8a757d5fee9250d15621d959c97bb597971bf88b83b642a7c10",
+    "cnn-robust_adaptation-29": "0d105c54a09ce5159cdba239686bd5a404e04cd00d7356ca139c0ee7e2ed567f",
+    "cnn-robust_adaptation-43": "60467fadb5625892d42fe6f0bc9a829684f5b3ddbaab03c49a412973a2ea8ca8",
+    "cnn-selective_adaptation-17": "f5096760e70deb5a549353eb3273bd09457381f7901b42bb12fe61498771c468",
+    "cnn-selective_adaptation-29": "ec5d90411e8d7523bc07a97464999fd398ce6ffacc32908beccd495abc162b47",
+    "cnn-selective_adaptation-43": "13c55157138cc5c04212018eb0773cde380cafbed6a1877e2da19120cb5a5fdb",
+    "transformer-base-17": "47d006e573cbfa690e900827b741261fa691523df1bd006100783c59e40ea77e",
+    "transformer-base-29": "b25f6d7f0cbe0b2c6a89f8fe7b4350dd32c4e6eb9840ca3fef0ed869db28dc27",
+    "transformer-base-43": "9bcb5335d73a07027a60cbb404957253ded2df5c6542423958795ccd10e58e0b",
+    "transformer-continued_base-17": "28808720f95179d3f21c74f56692b1a674c7973a899e3075f5765c14a46adb10",
+    "transformer-continued_base-29": "2e2473fccee6185eb996466cba7b0d616b24e6b750b2a714715fe69094672208",
+    "transformer-continued_base-43": "41ee93f95c58476c42206a0de3c74b2bbfde4c9322efb58e874e0e97b35e1f95",
+    "transformer-robust_adaptation-17": "70d667ebf610348fc13b8206c45c7cd338fc432cfedad090c64b609cb3f4e135",
+    "transformer-robust_adaptation-29": "15028b8d7697ebb30014eaf5ecd5506a3a8eb8be01bdf49157c5af6c70dc0d5c",
+    "transformer-robust_adaptation-43": "2cd4c8c297a0e9aca959307b555baf25e575076a245798ec3a081acba1ab5986",
+    "transformer-selective_adaptation-17": "56e3963beba87a84dba45939db8c12a0b55af887f4caccddd7102e31332ff5f6",
+    "transformer-selective_adaptation-29": "357acea5b789c5bbe909f4b6aa1a60d22b32998fef5002c74beeb2b809c5b5b9",
+    "transformer-selective_adaptation-43": "051cd7ce8e7658ddea38c4bbe85ee2470eb590689db2d3b80a92ec58620d0947"
+  },
+  "window_starts_seconds": [
+    60,
+    180,
+    300
+  ],
+  "window_duration_seconds": 20,
+  "resampling": "125 Hz to 50 Hz polyphase 2/5",
+  "hr_reference": "median finite monitor HR in [30,200]; >=1 valid sample",
+  "rr_reference": "separate ann1/ann2 median inter-breath rates; >=2 breaths in half-open window",
+  "point_estimator": "equal-recording MAE; no external fitting or model selection",
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261014
+}

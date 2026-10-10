@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.env
+.env.*
+work/
+data/
+bidmc-public/
+results/reproduction*/
+results/reproduction-*.json
+results/smoke*/
+# Published independent-synthetic checkpoints and aggregate evaluation files
+# are intentionally tracked in results/neural-study and results/baselines.
